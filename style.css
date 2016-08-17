@@ -1,0 +1,136 @@
+body {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-family: Lato;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+@media (min-width: 768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+  	padding-right: 25px;
+  	padding-left: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 870px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 870px;
+  }
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.intro-text {
+	padding: 150px 15px;
+	text-align: center;
+}
+
+.intro-text h1 {
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.project-text h1 {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.project-text h2 {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.container .project-text p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.caption {
+	text-align: center;
+	font-weight: bold;
+}
+
+.video-container {
+	max-width: 560px;
+}
+
+.video-container-smaller {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container-smaller iframe, .video-container-smaller object, .video-container-smaller embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.connect {
+	text-align: center;
+	letter-spacing: 4px;
+	padding: 100px 0px 25px;
+}
+
+.social-media {
+	text-align: center;
+	letter-spacing: 25px;
+}
+
+.about-me {
+	margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+	.about-me-text-intro {
+		font-size: 16px;
+		line-height: 24px;
+		padding-top: 30px;
+	}
+}
+
+@media (min-width: 992px) {
+	.about-me-text-intro {
+		font-size: 16px;
+		line-height: 24px;
+		padding-top: 55px;
+	}
+}
+
+.about-me-text {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.portfolio {
+	padding-top: 30px;
+}
