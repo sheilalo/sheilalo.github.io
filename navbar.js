@@ -26,6 +26,9 @@ document.getElementById("navMenu").innerHTML =
           '<li class="dropdown">' +
             '<a href="portfolio.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Portfolio ' + caret + '</a>' +
             '<ul class="dropdown-menu">' +
+              '<li class="dropdown-header">Northwestern</li>' +
+              '<li><a href="evanstonc2c.html">Evanston Cradle to Career</a></li>' +
+              '<li role="separator" class="divider"></li>' +
               '<li class="dropdown-header">Caltech</li>' +
               '<li><a href="allez.html">One Arm Wheelchair Drive</a></li>' +
               '<li><a href="fsae.html">FSAE Electric 2016</a></li>' +
