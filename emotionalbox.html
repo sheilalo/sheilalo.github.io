@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Sheila Lo">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Sheila Lo | Emotional Box: Relaxed</title>
+
+    <!-- Font -->
+    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div id="navMenu"></div>
+
+    <div class="container">
+
+    <div class="project-text">
+
+      <h1>Emotional Box: Relaxed <small>October 2016 - November 2016</small></h1>
+        <h2>Overview</h2>
+        	<p>As part of DSGN 395: Designing Product Interactions, students were tasked with designing an interactive box to evoke an emotion. My team’s emotion was “relaxed.”</p>
+        <h2>Process</h2>
+        	<p>We began by brainstorming things that made us feel relaxed. Some items on the list included serene landscapes, sounds in nature, sunsets, and flower scents. From our brainstorm session, we refined our criteria of what is “relaxing” to four key sensory elements: soft and smooth surfaces, slow deep breaths, nature sounds, and “clean” scents.</p>
+        	<p>Then, we created a foamcore mock-up to prototype the box opening interaction, mechanical-electrical interface, and construction of the box at a systems level.</p>
+        <h2>Final Design</h2>
+        	<p>We created a smooth wooden box that slides to open. In the center of the lid, blue LEDs gently pulse through an acrylic window. Once the box is slid open, the LEDs fade, an air freshener releases a “clean” scent, and a speaker plays the sound of light waves.</p>
+        <h2>My Role</h2>
+            <p>My primary role on this project revolved around the mechatronics. To create the simulated “breathing” effect while the box was closed, I soldered together multiple NeoPixel LED strips and programmed them to oscillate in brightness with a 5 second period. I used a microswitch to detect when the lid was slid open, triggering the LEDs to fade, scent to be released, and sound to be played. To create a controlled scent so that users could connect with the ocean breeze once the box was opened, I hacked an air freshener so that it could be actuated by an Arduino. The sound of waves faded in slowly to add to the calming experience rather than draw attention to the presence of the sound. It was played through a speaker which was connected to an Arduino MP3 Music Shield. I also worked at a systems level to physically interface the electronics with the wooden box.</p>
+        <h2>What Else?</h2>
+            <p>We presented our Emotional Box at the Fall Design Expo 2016 hosted by the Segal Design Institute at Northwestern University and allowed attendees to experience the feeling of being “relaxed.”</p>
+
+    </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="navbar.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
