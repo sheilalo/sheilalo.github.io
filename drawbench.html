@@ -15,7 +15,7 @@
     <title>Sheila Lo | Draw Bench</title>
 
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -35,6 +35,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
 
   <body>
@@ -49,12 +50,12 @@
       <h1>Draw Bench <small>September 2015 - November 2015</small></h1>
         <h2>Overview</h2>
         	<p>As part of MECE08011: Mechanical Engineering Design 2A, I designed a single-machined lead screw draw bench to manufacture tapered nickel silver tubing.</p>
-        	<div class="img-container">
-          		<img src="img/drawbench_assembly.jpg" alt="Draw Bench">
-        		<div class="caption">
-          			<p>Render of draw bench assembly</p>
-          		</div>
-        	</div>
+
+          <img class="contentImg" src="img/drawbench_assembly.jpg" alt="Render of draw bench assembly" width="60%" height="60%">
+            <div class="caption">
+                <p>Render of draw bench assembly</p>
+            </div>
+
         <h2>Goal</h2>
         	<p>For this project, students were required to design a draw bench that consisted of a single-machined lead screw and a chain drive. The maximum outer diameter desired for the finished tubing was 22 mm with a wall thickness of 0.5 mm. The final length was to be 800 mm, achieved in 3 minutes.</p>
         <h2>Process</h2>
@@ -65,19 +66,26 @@
           <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-5">
-              <img src="img/drawbench_diecase.jpg" alt="Draw Bench Die Case Closeup">
+              <img class="contentImg" src="img/drawbench_diecase.jpg" alt="Closeup of die case, lead screw, and rail guide" width="70%" height="70%">
               <div class="caption">
                 <p>Closeup of die case, lead screw, and rail guide</p>
               </div>
             </div>
             <div class="col-md-5">
-              <img src="img/drawbench_tubeclamp.jpg" alt="Draw Bench Tube Clamp Closeup">
+              <img class="contentImg" src="img/drawbench_tubeclamp.jpg" alt="Closeup of tubing clamp" width="70%" height="70%">
               <div class="caption">
                 <p>Closeup of tubing clamp</p>
               </div>
             </div>
             <div class="col-md-1"></div>
           </div>
+
+      <!-- The Modal -->
+      <div id="imgModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="image">
+          <div id="modal-caption"></div>
+      </div>
 
     </div>
 
@@ -92,5 +100,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>

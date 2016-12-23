@@ -15,7 +15,7 @@
     <title>Sheila Lo | Room Buddy</title>
 
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -48,14 +48,51 @@
 
       <h1>Room Buddy <small>October 2016</small></h1>
         <h2>Overview</h2>
-        	<p>As part of the Integrated Design Innovation (IDI) 24 Hour Challenge 2016, students from the University of Pennsylvania, Carnegie Mellon University, Massachusetts Institute of Technology, and Northwestern University, in collaboration with our partners from Penn Medicine, researched, designed, and prototyped ways to improve the diagnosis, coping, and recovery process from Postoperative Cognitive Decline (POCD) and delirium in older adult patients.</p>
-        	<p>How can we enlist caregivers to mitigate delirium/POCD or expedite recovery when the patient demonstrates symptoms of delirium/POCD post-surgery, in the hospital?</p>
+          <p>As part of the Integrated Design Innovation (IDI) 24 Hour Challenge 2016, students from the University of Pennsylvania, Carnegie Mellon University, Massachusetts Institute of Technology, and Northwestern University, in collaboration with our partners from Penn Medicine, researched, designed, and prototyped ways to improve the diagnosis, coping, and recovery process from Postoperative Cognitive Decline (POCD) and delirium in older adult patients.</p>
+          <p>How can we enlist caregivers to mitigate delirium/POCD or expedite recovery when the patient demonstrates symptoms of delirium/POCD post-surgery, in the hospital?</p>
         <h2>Process</h2>
-        	<p>My group’s challenge was to determine how to best support patients who exhibit symptoms of delirium and their caregivers during the immediate post-operative period. We began with understanding the problem. Older patients are having surgeries at a greater rate today than ever before. As a result of the aging brain, anesthesia, and surgery, older patients are at higher risk of delirium. There is currently little support in place to prepare patients and caregivers for post-operative delirium.</p>
-        	<p>We conducted secondary research based off interviews with neuro intensive care unit (ICU) nurses, interviews with patients who had delirium, and their caregivers in order to generate questions for our guest panel. The panel represented a range of interested stakeholders from doctors to former patients who provided firsthand accounts of dealing with delirium. We also visited the neuro ICU to better understand the spaces in which patients were recovering in as well as the spaces where caregivers stay during their family member’s surgery.</p>
-        	<p>From there, we synthesized our observations and developed key insights into support system currently in place. Then, we found common themes based on our insights, which allowed us to begin ideating potential solutions. We decided to focus on ways to help rehabilitate patients who have delirium symptoms in the first few days post-operation. My group created several low-fidelity prototypes and received feedback from the perspective of doctors, experienced designers, as well as former patients and caregivers themselves.</p>
+          <p>My group’s challenge was to determine how to best support patients who exhibit symptoms of delirium and their caregivers during the immediate post-operative period. We began with understanding the problem. Older patients are having surgeries at a greater rate today than ever before. As a result of the aging brain, anesthesia, and surgery, older patients are at higher risk of delirium. There is currently little support in place to prepare patients and caregivers for post-operative delirium.</p>
+         
+          <img class="contentImg" src="img/roombuddy_understand.jpg" alt="Learning about delirium in older adults" width="55%" height="55%">
+            <div class="caption">
+                <p>Learning about delirium in older adults</p>
+            </div>
+          
+          <p>We conducted secondary research based off interviews with neuro intensive care unit (ICU) nurses, interviews with patients who had delirium, and their caregivers in order to generate questions for our guest panel. The panel represented a range of interested stakeholders from doctors to former patients who provided firsthand accounts of dealing with delirium. We also visited the neuro ICU to better understand the spaces in which patients were recovering in as well as the spaces where caregivers stay during their family member’s surgery.</p>
+
+          <img class="contentImg" src="img/roombuddy_hospital.jpg" alt="Visiting Penn Medicine's neuro ICU" width="45%" height="45%">
+            <div class="caption">
+                <p>Visiting Penn Medicine's neuro ICU</p>
+            </div>
+
+          <p>From there, we synthesized our observations and developed key insights into support system currently in place. Then, we found common themes based on our insights, which allowed us to begin ideating potential solutions.</p>
+
+          <img class="contentImg" src="img/roombuddy_whiteboard.jpg" alt="Work in progress to design a solution" width="60%" height="60%">
+            <div class="caption">
+                <p>Work in progress to design a solution</p>
+            </div>
+
+          <p>We decided to focus on ways to help rehabilitate patients who have delirium symptoms in the first few days post-operation. My group created several low-fidelity prototypes and received feedback from the perspective of doctors, experienced designers, as well as former patients and caregivers themselves.</p>
+
+          <img class="contentImg" src="img/roombuddy_prototypes.jpg" alt="Portfolio of our group's solutions" width="55%" height="55%">
+            <div class="caption">
+                <p>Portfolio of our group's solutions</p>
+            </div>
+
         <h2>Final Design</h2>
-        	<p>We created Room Buddy, a system that leverages the current infrastructure of the room to aid re-orientation while promoting a sense of comfort and familiarity. Patients and caregivers provide elements of the patient’s daily life prior to the surgery and those habits are translated into information on the television screen. The main screen will give the date, time, and weather to help patients re-orient with regards to time. A menu with achievements of major improvements, favorite television shows, favorite movies, and a family album allow patients to regain a sense of normalcy by helping reform their habits.</p>
+          <p>We created Room Buddy, a system that leverages the current infrastructure of the room to aid re-orientation while promoting a sense of comfort and familiarity. Patients and caregivers provide elements of the patient’s daily life prior to the surgery and those habits are translated into information on the television screen. The main screen will give the date, time, and weather to help patients re-orient with regards to time. A menu with achievements of major improvements, favorite television shows, favorite movies, and a family album allow patients to regain a sense of normalcy by helping reform their habits.</p>
+
+          <img class="contentImg" src="img/roombuddy_solution.jpg" alt="Presenting Room Buddy at the IDI 24 Hour Design Challenge 2016" width="60%" height="60%">
+            <div class="caption">
+                <p>Presenting Room Buddy at the IDI 24 Hour Design Challenge 2016</p>
+            </div>
+
+      <!-- The Modal -->
+      <div id="imgModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="image">
+          <div id="modal-caption"></div>
+      </div>
 
     </div>
 
@@ -70,5 +107,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>

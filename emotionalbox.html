@@ -15,7 +15,7 @@
     <title>Sheila Lo | Emotional Box: Relaxed</title>
 
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -48,16 +48,60 @@
 
       <h1>Emotional Box: Relaxed <small>October 2016 - November 2016</small></h1>
         <h2>Overview</h2>
-        	<p>As part of DSGN 395: Designing Product Interactions, students were tasked with designing an interactive box to evoke an emotion. My team’s emotion was “relaxed.”</p>
+          <p>As part of DSGN 395: Designing Product Interactions, students were tasked with designing an interactive box to evoke an emotion. My team’s emotion was “relaxed.”</p>
         <h2>Process</h2>
-        	<p>We began by brainstorming things that made us feel relaxed. Some items on the list included serene landscapes, sounds in nature, sunsets, and flower scents. From our brainstorm session, we refined our criteria of what is “relaxing” to four key sensory elements: soft and smooth surfaces, slow deep breaths, nature sounds, and “clean” scents.</p>
-        	<p>Then, we created a foamcore mock-up to prototype the box opening interaction, mechanical-electrical interface, and construction of the box at a systems level.</p>
+          <p>We began by brainstorming things that made us feel relaxed. Some items on the list included serene landscapes, sounds in nature, sunsets, and flower scents. From our brainstorm session, we refined our criteria of what is “relaxing” to four key sensory elements: soft and smooth surfaces, slow deep breaths, nature sounds, and “clean” scents.</p>
+          <p>Then, we created a foamcore mock-up to prototype the box opening interaction, mechanical-electrical interface, and construction of the box at a systems level.</p>
+
+          <img class="contentImg" src="img/emotionalbox_prototype.jpg" alt="Foamcore mock-up of emotional box" width="35%" height="35%">
+            <div class="caption">
+                <p>Foamcore mock-up of emotional box</p>
+            </div>
+
         <h2>Final Design</h2>
         	<p>We created a smooth wooden box that slides to open. In the center of the lid, blue LEDs gently pulse through an acrylic window. Once the box is slid open, the LEDs fade, an air freshener releases a “clean” scent, and a speaker plays the sound of light waves.</p>
+
+          <img class="contentImg" src="img/emotionalbox_exterior.jpg" alt="Emotional box exterior" width="42%" height="42%">
+            <div class="caption">
+                <p>Exterior of emotional box</p>
+            </div>
+
         <h2>My Role</h2>
-            <p>My primary role on this project revolved around the mechatronics. To create the simulated “breathing” effect while the box was closed, I soldered together multiple NeoPixel LED strips and programmed them to oscillate in brightness with a 5 second period. I used a microswitch to detect when the lid was slid open, triggering the LEDs to fade, scent to be released, and sound to be played. To create a controlled scent so that users could connect with the ocean breeze once the box was opened, I hacked an air freshener so that it could be actuated by an Arduino. The sound of waves faded in slowly to add to the calming experience rather than draw attention to the presence of the sound. It was played through a speaker which was connected to an Arduino MP3 Music Shield. I also worked at a systems level to physically interface the electronics with the wooden box.</p>
+          <p>My primary role on this project revolved around the mechatronics.</p>
+
+          <img class="contentImg" src="img/emotionalbox_interior.jpg" alt="Interior of emotional box" width="35%" height="35%">
+            <div class="caption">
+                <p>Interior of emotional box</p>
+            </div>
+
+          <p>To create the simulated “breathing” effect while the box was closed, I soldered together multiple NeoPixel LED strips and programmed them to oscillate in brightness with a 5 second period. I used a microswitch to detect when the lid was slid open, triggering the LEDs to fade, scent to be released, and sound to be played. To create a controlled scent so that users could connect with the ocean breeze once the box was opened, I hacked an air freshener so that it could be actuated by an Arduino.</p>
+
+          <img class="contentImg" src="img/emotionalbox_airfreshener.jpg" alt="Hacking an air freshener" width="38%" height="38%">
+            <div class="caption">
+                <p>Hacking an air freshener</p>
+            </div>
+
+          <p>The sound of waves faded in slowly to add to the calming experience rather than draw attention to the presence of the sound. It was played through a speaker which was connected to an Arduino MP3 Music Shield. I also worked at a systems level to physically interface the electronics with the wooden box.</p>
+
+          <img class="contentImg" src="img/emotionalbox_systems.jpg" alt="Integrating the electronics into the wooden box" width="40%" height="40%">
+            <div class="caption">
+                <p>Integrating the electronics into the wooden box</p>
+            </div>
+
         <h2>What Else?</h2>
-            <p>We presented our Emotional Box at the Fall Design Expo 2016 hosted by the Segal Design Institute at Northwestern University and allowed attendees to experience the feeling of being “relaxed.”</p>
+          <p>We presented our Emotional Box at the Fall Design Expo 2016 hosted by the Segal Design Institute at Northwestern University and allowed attendees to experience the feeling of being “relaxed.”</p>
+
+          <img class="contentImg" src="img/emotionalbox_designexpo.jpg" alt="Presenting our emotional box at the Fall Design Expo 2016" width="30%" height="30%">
+            <div class="caption">
+                <p>Presenting our emotional box at the Fall Design Expo 2016</p>
+            </div>
+
+      <!-- The Modal -->
+      <div id="imgModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="image">
+          <div id="modal-caption"></div>
+      </div>
 
     </div>
 
@@ -72,5 +116,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>

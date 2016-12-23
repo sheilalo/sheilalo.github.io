@@ -15,7 +15,7 @@
     <title>Sheila Lo | Quick Release Mechanism</title>
 
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,22 +49,28 @@
       <h1>Formula One Quick Release Mechanism <small>September 2015 - November 2015</small></h1>
         <h2>Overview</h2>
         	<p>As part of MECE09029: Computer Aided Engineering 3, I reverse engineered and modeled a Formula One quick release mechanism and steering wheel.</p>
-        	<div class="img-container">
-          		<img src="img/quickrelease_mechanism.jpg" alt="Exploded View of Quick Release Mechanism">
-        		<div class="caption">
-          			<p>Exploded view of quick release mechanism</p>
-          		</div>
-        	</div>
+
+          <img class="contentImg" src="img/quickrelease_mechanism.jpg" alt="Exploded view of quick release mechanism" width="50%" height="50%">
+            <div class="caption">
+                <p>Exploded view of quick release mechanism</p>
+            </div>
+
         <h2>Purpose</h2>
         	<p>The course served to familiarize students with different tools in Solid Edge including: parametric modeling, assemblies, finite elements, optimization, curves and surfaces, direct/synchronous modeling, standard parts, rendering and animation, and drawings. This class culminated in a final report evaluating Solid Edge CAD tools and showcasing our quick release mechanisms.</p>
         <h2>Final Design</h2>
         	<p>I received a 77 (A3) for my quick release model and CAD report. Highlights of the model can be seen at this <a href="https://www.youtube.com/watch?v=qskqF5r8kBA">link</a>.</p>
-        	<div class="img-container">
-          		<img src="img/quickrelease_render.jpg" alt="Quick Release Final Render">
-        		<div class="caption">
-          			<p>Render of quick release model</p>
-          		</div>
-          	</div>
+
+          <img class="contentImg" src="img/quickrelease_render.jpg" alt="Render of quick release model" width="55%" height="55%">
+            <div class="caption">
+                <p>Render of quick release model</p>
+            </div>
+
+      <!-- The Modal -->
+      <div id="imgModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="image">
+          <div id="modal-caption"></div>
+      </div>
 
     </div>
 
@@ -79,5 +85,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>

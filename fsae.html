@@ -15,7 +15,7 @@
     <title>Sheila Lo | FSAE Electric 2016</title>
 
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -51,26 +51,31 @@
           <p>As part of the student-led Caltech Racing team, we designed and built Caltech’s first entry to the Formula SAE Electric 2016 competition.</p>
         <h2>My Role</h2>
           <p>On the <b>Systems Engineering</b> team, I worked on rules compliance, test procedures, and lab safety. We reached out to experienced FSAE teams to gauge the different tests they performed on their cars prior to competition. From there, we came up with a list of the tests we wanted to do. We then wrote up test procedures and acquired the necessary equipment. These efforts culminated in a Mock Technical Inspection in which we invited our technical advisers, previous FSAE judges, and other teams to showcase their cars at Caltech.</p>
-          <div class="img-container">
-              <img src="img/fsae_mocktech.jpg" alt="Caltech Racing Team Photo at Mock Tech">
+
+          <img class="contentImg" src="img/fsae_mocktech.jpg" alt="Team photo at Mock Technical Inspection" width="60%" height="60%">
             <div class="caption">
                 <p>Team photo at Mock Technical Inspection</p>
-              </div>
-          </div>          
+            </div>
+          
           <p>As the designs progressed, we also ensured rules compliance by meeting with the engineers responsible for each component of the car. Another project I completed on Systems Engineering was assembling three first aid kits for our work spaces and installing an AED in our lab.</p>
           <p>On the <b>Business</b> team, I designed plaques to be rastered and cut in-house in our machine shop, ordered t-shirts and button down shirts for the team, and created renders of our car using KeyShot and PhotoView 360.</p>
-          <div class="img-container">
-              <img src="img/fsae_class.jpg" alt="Caltech Racing Team Photo with Team Shirts">
+
+          <img class="contentImg" src="img/fsae_class.jpg" alt="Team photo during all-team meeting" width="70%" height="70%">
             <div class="caption">
                 <p>Team photo during all-team meeting</p>
-              </div>
-          </div>
-          <div class="img-container">
-              <img src="img/fsae_render.png" alt="Caltech Racing Render">
+            </div>
+
+          <img class="contentImg" src="img/fsae_render.png" alt="Render of Caltech Racing's car" width="70%" height="70%">
             <div class="caption">
                 <p>Render of Caltech Racing's car</p>
-              </div>
-          </div>
+            </div>
+
+      <!-- The Modal -->
+      <div id="imgModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="image">
+          <div id="modal-caption"></div>
+      </div>
 
     </div>
 
@@ -85,5 +90,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>

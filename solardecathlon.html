@@ -15,7 +15,7 @@
     <title>Sheila Lo | Solar Decathlon 2013</title>
 
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -61,63 +61,80 @@
           </div>
         <h2>My Role</h2>
           <p>On the <b>Movement and Safety</b> team, I tested pressure sensors and gaskets. We determined the minimum amount of force needed for the pressure sensors to detect that an object was in the path of the closing home and where the sensors were not responsive.</p>
-          <img src="img/solardecathlon_pressuresensorsetup.jpg" alt="Solar Decathlon Pressure Sensor Setup">
+
+          <img class="contentImg" src="img/solardecathlon_pressuresensorsetup.jpg" alt="Pressure sensor testing setup" width="50%" height="50%">
             <div class="caption">
                 <p>Pressure sensor testing setup</p>
             </div>
-          <img src="img/solardecathlon_pressuresensor.jpg" alt="Solar Decathlon Pressure Sensor">
+
+          <img class="contentImg" src="img/solardecathlon_pressuresensor.jpg" alt="The white areas denoted where the sensor was not responsive" width="40%" height="40%">
             <div class="caption">
                 <p>The white areas denoted where the sensor was not responsive</p>
             </div>
+
           <p>We also determined how much the gaskets need to be compressed in order to create an air- and water-tight seal for the closed home.</p>
-          <img src="img/solardecathlon_gaskets.jpg" alt="Solar Decathlon Gaskets">
+
+          <img class="contentImg" src="img/solardecathlon_gaskets.jpg" alt="Gasket testing setup" width="40%" height="40%">
             <div class="caption">
                 <p>Gasket testing setup</p>
             </div>
+
           <p>I also spent part of the summer working on the <a href="http://www.caltech.edu/news/meet-dale-solar-decathlon-2013-construction-under-way-40122"><b>Build</b></a> team. In particular, I worked on installing insulation, wiring according to building codes, and edge banding for our cabinets.</p>
+
           <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-5">
-              <img src="img/solardecathlon_build1.jpg" alt="Solar Decathlon Build Full House">
-              <div class="caption">
-                <p>DALE, circa July 2013</p>
-              </div>
+              <img class="contentImg" src="img/solardecathlon_build1.jpg" alt="DALE, circa July 2013" width="90%" height="90%">
+                <div class="caption">
+                  <p>DALE, circa July 2013</p>
+                </div>
             </div>
             <div class="col-md-5">
-              <img src="img/solardecathlon_build2.jpg" alt="Solar Decathlon Build Fish Eye">
-              <div class="caption">
-                <p>Team SCI-Arc/Caltech hard at work</p>
-              </div>
+              <img class="contentImg" src="img/solardecathlon_build2.jpg" alt="Team SCI-Arc/Caltech hard at work" width="90%" height="90%">
+                <div class="caption">
+                  <p>Team SCI-Arc/Caltech hard at work</p>
+                </div>
             </div>
             <div class="col-md-1"></div>
           </div>
+
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-4">
-              <img src="img/solardecathlon_insulation.jpg" alt="Solar Decathlon Insulation">
-              <div class="caption">
-                <p>Installing insulation into the floor</p>
-              </div>
+              <img class="contentImg" src="img/solardecathlon_insulation.jpg" alt="Installing insulation into the floor" width="80%" height="80%">
+                <div class="caption">
+                  <p>Installing insulation into the floor</p>
+                </div>
             </div>
             <div class="col-md-4">
-              <img src="img/solardecathlon_wires.jpg" alt="Solar Decathlon Wires">
-              <div class="caption">
-                <p>Wiring in progress</p>
+              <img class="contentImg" src="img/solardecathlon_wires.jpg" alt="Wiring in progress" width="80%" height="80%">
+                <div class="caption">
+                  <p>Wiring in progress</p>
               </div>
             </div>
             <div class="col-md-2"></div>
           </div>
-          <img src="img/solardecathlon_cabinets.jpg" alt="Solar Decathlon Cabinets">
+
+          <img class="contentImg" src="img/solardecathlon_cabinets.jpg" alt="The team edge banding in the shop" width="60%" height="60%">
             <div class="caption">
                 <p>The team edge banding in the shop</p>
             </div>
+
           <p>On the <b>Communications</b> team, I coordinated blog posts spotlighting SCI-Arc and Caltech team members and worked on website compatibility with different web browsers. Our team also invited the Caltech community to the Solar Decathlon competition in Irvine, CA to see DALE so I made posters and coordinated signups for transportation.</p>
         <h2>Competition</h2>
           <p>For two weeks, DALE competed against 18 other houses in various competitions. The competition was open to the public on the weekends and we had a great time introducing DALE to everyone! In the end, we tied for first in the Energy Balance competition and received fourth place in the Communications competition.</p>
-          <img src="img/solardecathlon_competition.jpg" alt="Solar Decathlon Competition">
+
+          <img class="contentImg" src="img/solardecathlon_competition.jpg" alt="DALE at the U.S. Department of Energy Solar Decathlon 2013 competition" width="60%" height="60%">
             <div class="caption">
                 <p>DALE at the U.S. Department of Energy Solar Decathlon 2013 competition</p>
             </div>
+
+      <!-- The Modal -->
+      <div id="imgModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="image">
+          <div id="modal-caption"></div>
+      </div>
 
     </div>
 
@@ -132,5 +149,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>

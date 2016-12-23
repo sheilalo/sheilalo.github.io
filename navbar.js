@@ -3,7 +3,7 @@ if ($(window).width() < 768) {
   // If mobile, no caret for Projects dropdown
   var caret= '';
 } else {
-  // Not on mobile, add the caret!
+  // Not on mobile, add the caret
   var caret = '<span class="caret"></span>';
 }
 
@@ -27,6 +27,10 @@ document.getElementById("navMenu").innerHTML =
             '<a href="portfolio.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Portfolio ' + caret + '</a>' +
             '<ul class="dropdown-menu">' +
               '<li class="dropdown-header">Northwestern</li>' +
+              '<li><a href="simonsings.html">Simon Sings</a></li>' +
+              '<li><a href="infographic.html">Youth Vote Infographic</a></li>' +
+              '<li><a href="emotionalbox.html">Emotional Box: Relaxed</a></li>' +
+              '<li><a href="roombuddy.html">Room Buddy</a></li>' +
               '<li><a href="evanstonc2c.html">Evanston Cradle to Career</a></li>' +
               '<li role="separator" class="divider"></li>' +
               '<li class="dropdown-header">Caltech</li>' +
@@ -43,7 +47,7 @@ document.getElementById("navMenu").innerHTML =
               '<li><a href="ewb.html">EWB UK: Solar Water Pump</a></li>' +
             '</ul>' +
           '</li>' +
-          '<li><a href="https://www.linkedin.com/in/sheilalo">Resume</a></li>' +
+          '<li><a href="https://www.linkedin.com/in/sheilalo" target="_blank">Resume</a></li>' +
           '<li><a href="contact.html">Contact</a></li>' +
         '</ul>' +
       '</div><!--/.nav-collapse -->' +

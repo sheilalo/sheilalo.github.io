@@ -15,7 +15,7 @@
     <title>Sheila Lo | Wishing Well</title>
 
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,28 +49,34 @@
       <h1>Wishing Well <small>May 2014 - June 2014</small></h1>
         <h2>Overview</h2>
         	<p>As part of ME 14: Design and Fabrication, students self-selected a final project to demonstrate proficiency in the design process, from initial design to final prototype. My group was inspired to make a functional wishing well prototype after seeing a DIY wishing well created from milk cartons.</p>
-        	<div class="img-container">
-          		<img src="img/wishingwell_cad.png" alt="Wishing Well CAD">
-        		<div class="caption">
-          			<p>Wishing well CAD</p>
-          		</div>
-        	</div>
+
+          <img class="contentImg" src="img/wishingwell_cad.png" alt="Wishing well CAD" width="30%" height="30%">
+            <div class="caption">
+                <p>Wishing well CAD</p>
+            </div>
+
         <h2>Process</h2>
         	<p>We wanted to keep our wishing well prototype simple while designing so that we would use all the machines we became familiar with during the past term. Since we wanted to make a functional wishing well prototype, we designed a ratchet and pawl to keep the bucket in place when an individual stops turning the hand-crank; the spring-held pawl could be released to again lower the bucket.</p>
-          <div class="img-container">
-              <img src="img/wishingwell_closeup.png" alt="Wishing Well Closeup">
+
+          <img class="contentImg" src="img/wishingwell_closeup.png" alt="Closeup of ratchet and pawl" width="20%" height="20%">
             <div class="caption">
                 <p>Closeup of ratchet and pawl</p>
-              </div>
             </div>
+
           <p>Both the ratchet and pawl were created on the water jet. We cut the pieces for the walls and roof of the wishing well on the laser cutter. The brick design was made in SolidWorks and rastered using the laser cutter. The rods and bobbin were machined on the lathe while the angle of the roof was cut on the mill.</p>
         <h2>Final Design</h2>
-        	<div class="img-container">
-          		<img src="img/wishingwell_finaldesign.jpg" alt="Wishing Well Final Design">
-        			<div class="caption">
-          				<p>Final wishing well prototype</p>
-          			</div>
-          </div>
+
+          <img class="contentImg" src="img/wishingwell_finaldesign.jpg" alt="Final wishing well prototype" width="30%" height="30%">
+            <div class="caption">
+                <p>Final wishing well prototype</p>
+            </div>
+
+      <!-- The Modal -->
+      <div id="imgModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="image">
+          <div id="modal-caption"></div>
+      </div>
 
     </div>
 
@@ -85,5 +91,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>

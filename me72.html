@@ -15,7 +15,7 @@
     <title>Sheila Lo | ME 72: Millikan Aquamania</title>
 
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,10 +49,12 @@
       <h1>ME 72: Millikan Aquamania <small>October 2014 - March 2015</small></h1>
         <h2>Overview</h2>
           <p>As part of ME 72: Engineering Design Laboratory, students spent two quarters designing, building, testing, and ultimately, competing in a robotics competition that serves as the capstone design project for Caltech’s undergraduate Mechanical Engineering degree.</p>
-          <img src="img/me72_robot.jpg" alt="ME 72 Robot Before Competition">
+
+          <img class="contentImg" src="img/me72_robot.jpg" alt="Our team's ME 72 robot prior to competition" width="30%" height="30%">
             <div class="caption">
                 <p>Our team's ME 72 robot prior to competition</p>
             </div>
+
         <h2>Competition Guidelines</h2>
           <p>The 2015 competition required teams to build amphibious robots capable of securing and moving around small balls in Millikan Pond at Caltech. To score points, balls needed to be deposited into designated scoring zones with specific entry points. The 4-minute competition was broken into two segments. A 30 second period in the beginning of each round allowed teams to receive bonus points for autonomously scaling down a ramp and/or scoring. This was followed by a 3.5-minute radio control period in which teams moved balls across Millikan Pond to score points.</p>      
         <h2>Process</h2>
@@ -69,22 +71,30 @@
           </div>
         <h2>Results</h2>
           <p>After 8 rounds, we won <a href="http://www.caltech.edu/content/contest-unleashes-aquamania-millikan-pond">Millikan Aquamania</a>, Caltech’s 30th annual ME 72 competition!</p>
+
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-4">
-              <img src="img/me72_competition.jpg" alt="ME 72 Robot in Competition">
-              <div class="caption">
-                <p>Our robot depositing a ball through the barriers to score</p>
-              </div>
+              <img class="contentImg" src="img/me72_competition.jpg" alt="Our robot depositing a ball through the barriers to score" width="90%" height="90%">
+                <div class="caption">
+                  <p>Our robot depositing a ball through the barriers to score</p>
+                </div>
             </div>
             <div class="col-md-4">
-              <img src="img/me72_team.jpg" alt="ME 72 Team KATS">
-              <div class="caption">
-                <p>Team KATS with our 45 lb trophy</p>
-              </div>
+              <img class="contentImg" src="img/me72_team.jpg" alt="Team KATS with our 45 lb trophy" width="90%" height="90%">
+                <div class="caption">
+                  <p>Team KATS with our 45 lb trophy</p>
+                </div>
             </div>
             <div class="col-md-2"></div>
           </div>
+
+      <!-- The Modal -->
+      <div id="imgModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="image">
+          <div id="modal-caption"></div>
+      </div>
 
     </div>
 
@@ -99,5 +109,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>

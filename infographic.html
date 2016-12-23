@@ -15,7 +15,7 @@
     <title>Sheila Lo | Youth Vote Infographic</title>
 
     <!-- Font -->
-    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -48,9 +48,32 @@
 
       <h1>Youth Vote Infographic <small>October 2016 - November 2016</small></h1>
         <h2>Overview</h2>
-        	<p>As part of DSGN 420: Design Communication and Methods, students created infographics and video animations to encourage young adults to vote.</p>
+          <p>As part of DSGN 420: Design Communication and Methods, students created infographics and video animations to encourage young adults to vote.</p>
         <h2>Final Design</h2>
-        	<p>My goal was to dismiss the myth that the youth vote “doesn’t matter” and show that we can greatly impact our government by voting. I used a color scheme that played off of patriotic colors, while using arrows to maintain a steady pace in the presentation of information.</p>
+          <p>My goal was to dismiss the myth that the youth vote “doesn’t matter” and show that we can greatly impact our government by voting. I used a color scheme that played off of patriotic colors, while using arrows to maintain a steady pace in the presentation of information.</p>
+
+          <img class="contentImg" src="img/infographic.png" alt="Youth vote infographic" width="35%" height="35%">
+            <div class="caption">
+                <p>Youth vote infographic</p>
+            </div>
+
+          <center>
+            <div class="video-container">
+              <div class="video-container-smaller">
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gl4kS6uiwog?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </center>
+          <div class="caption">
+            <p>Infographic animation</p>
+          </div>
+
+      <!-- The Modal -->
+      <div id="imgModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="image">
+          <div id="modal-caption"></div>
+      </div>
 
     </div>
 
@@ -65,5 +88,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>
