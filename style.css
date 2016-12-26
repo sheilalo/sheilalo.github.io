@@ -135,6 +135,16 @@ img {
 	padding-top: 30px;
 }
 
+.content-filter-item {
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content-filter-active {
+    font-weight: bold;
+}
+
 .contentImg {
     cursor: pointer;
 }

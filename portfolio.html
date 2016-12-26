@@ -45,20 +45,25 @@
 
     <div class="container">
 
-    <div id="content-filter">
-        <div class="content-filter-item content-filter-all content-filter-active">
+    <div class = "row" id="content-filter">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2 content-filter-item content-filter-active" id="content-filter-featured">
+            <div class="content-filter-caption">Featured</div>
+            <div class="clear"></div>
+        </div>
+        <div class="col-lg-2 content-filter-item" id="content-filter-all">
             <div class="content-filter-caption">All</div>
             <div class="clear"></div>
         </div>
-        <div class="content-filter-item content-filter-Northwestern">
+        <div class="col-lg-2 content-filter-item" id="content-filter-Northwestern">
             <div class="content-filter-caption">Northwestern</div>
             <div class="clear"></div>
         </div>
-        <div class="content-filter-item content-filter-Caltech">
+        <div class="col-lg-2 content-filter-item" id="content-filter-Caltech">
             <div class="content-filter-caption">Caltech</div>
             <div class="clear"></div>
         </div>
-        <div class="content-filter-item content-filter-Edinburgh">
+        <div class="col-lg-2 content-filter-item" id="content-filter-Edinburgh">
             <div class="content-filter-caption">Edinburgh</div>
             <div class="clear"></div>
         </div>
@@ -67,7 +72,7 @@
 
     <div class="row portfolio" id="content-gallery">
 
-            <div class="col-md-4 col-sm-6 portfolio-item portfolio-item-Northwestern">
+            <div class="col-md-4 col-sm-6 portfolio-item portfolio-item-Northwestern portfolio-item-featured">
                 <div class="thumbnail">
                     <a href="simonsings.html">
                     <img src="img/simonsings_thumbnail.jpg" alt="Simon Sings Thumbnail">
@@ -122,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 portfolio-item portfolio-item-Caltech">
+            <div class="col-md-4 col-sm-6 portfolio-item portfolio-item-Caltech portfolio-item-featured">
                 <div class="thumbnail">
                     <a href="allez.html">
                     <img src="img/allez_thumbnail.png" alt="Allez Thumbnail">
@@ -144,7 +149,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 portfolio-item portfolio-item-Caltech">
+            <div class="col-md-4 col-sm-6 portfolio-item portfolio-item-Caltech portfolio-item-featured">
                 <div class="thumbnail">
                     <a href="me72.html">
                     <img src="img/me72_thumbnail.jpg" alt="ME 72 Thumbnail">
@@ -234,14 +239,8 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script
-        src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-        crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="assets/js/jquery_masonry_min.js" charset="utf-8"></script>
-    <!-- Sorting script -->
-    <script type="text/javascript" src="script.js" charset="utf-8"></script>
+    <!-- Portfolio filter script -->
+    <script type="text/javascript" src="filter.js" charset="utf-8"></script>
 
   </body>
 </html>
