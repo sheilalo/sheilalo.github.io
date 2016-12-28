@@ -115,8 +115,16 @@ img {
 	letter-spacing: 25px;
 }
 
+.page-header {
+    margin-bottom: 40px;
+}
+
 .about-me {
 	margin-top: 40px;
+}
+
+.about-me-text {
+    margin-right: 280px;
 }
 
 @media (max-width: 991px) {
@@ -144,14 +152,24 @@ img {
 	padding-top: 30px;
 }
 
+/** Portfolio Sorting **/
+#content-filter {
+    margin-top: 15px;
+    text-align: center;
+}
+
 .content-filter-item {
-    font-size: 20px;
+    font-size: 20px;4
     text-align: center;
     cursor: pointer;
 }
 
 .content-filter-active {
     font-weight: bold;
+}
+
+.content-filter-item {
+    color: #0D214B;
 }
 
 /* Modal images */
