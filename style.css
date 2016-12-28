@@ -8,11 +8,6 @@ html {
     overflow-y: scroll;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-/* Mobile responsive adjustments */
 @media (min-width: 768px) {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
@@ -39,22 +34,20 @@ a:hover {
   }
 }
 
-/* Index page */
+a:hover {
+	text-decoration: none;
+}
+
 .intro-text {
-	padding: 160px 0px;
+	padding: 150px 15px;
+	text-align: center;
 }
 
 .intro-text h1 {
-	font-weight: 700;
-    margin-bottom: 15px;
+	font-weight: 800;
 	letter-spacing: 1px;
 }
 
-.lead {
-    margin-bottom: 5px;
-}
-
-/* Project pages */
 .project-text h1 {
 	font-size: 28px;
 	font-weight: 500;
@@ -70,7 +63,6 @@ a:hover {
 	line-height: 24px;
 }
 
-/* Images */
 img {
     padding: 0;
     display: block;
@@ -84,7 +76,6 @@ img {
 	font-weight: bold;
 }
 
-/* Videos */
 .video-container {
 	max-width: 560px;
 }
@@ -154,7 +145,6 @@ img {
     font-weight: bold;
 }
 
-/* Modal images */
 .contentImg {
     cursor: pointer;
 }
