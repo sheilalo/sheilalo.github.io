@@ -16,7 +16,6 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-89427036-1', 'auto');
 ga('send', 'pageview');
 
-
 document.getElementById("navMenu").innerHTML =
   '<nav class="navbar navbar-default navbar-fixed-top">' +
     '<div class="container">' +
@@ -30,33 +29,10 @@ document.getElementById("navMenu").innerHTML =
         '<a class="navbar-brand" href="index.html">Sheila Lo</a>' +
       '</div>' +
       '<div id="navbar" class="navbar-collapse collapse">' +
-        '<ul class="nav navbar-nav">' +
+        '<ul class="nav navbar-nav navbar-right">' +
           '<li><a href="index.html">Home</a></li>' +
           '<li><a href="aboutme.html">About Me</a></li>' +
-          '<li class="dropdown">' +
-            '<a href="portfolio.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Portfolio ' + caret + '</a>' +
-            '<ul class="dropdown-menu">' +
-              '<li class="dropdown-header">Northwestern</li>' +
-              '<li><a href="simonsings.html">Simon Sings</a></li>' +
-              '<li><a href="infographic.html">Youth Vote Infographic</a></li>' +
-              '<li><a href="emotionalbox.html">Emotional Box: Relaxed</a></li>' +
-              '<li><a href="roombuddy.html">Room Buddy</a></li>' +
-              '<li><a href="evanstonc2c.html">Evanston Cradle to Career</a></li>' +
-              '<li role="separator" class="divider"></li>' +
-              '<li class="dropdown-header">Caltech</li>' +
-              '<li><a href="allez.html">One Arm Wheelchair Drive</a></li>' +
-              '<li><a href="fsae.html">FSAE Electric 2016</a></li>' +
-              '<li><a href="me72.html">ME 72: Millikan Aquamania</a></li>' +
-              '<li><a href="wishingwell.html">Wishing Well</a></li>' +
-              '<li><a href="transmission.html">Transmission</a></li>' +
-              '<li><a href="solardecathlon.html">Solar Decathlon 2013</a></li>' +
-              '<li role="separator" class="divider"></li>' +
-              '<li class="dropdown-header">Edinburgh</li>' +   
-              '<li><a href="drawbench.html">Draw Bench</a></li>' +
-              '<li><a href="quickrelease.html">Quick Release Mechanism</a></li>' +
-              '<li><a href="ewb.html">EWB UK: Solar Water Pump</a></li>' +
-            '</ul>' +
-          '</li>' +
+          '<li><a href="portfolio.html">Portfolio</a></li>' +
           '<li><a href="https://www.linkedin.com/in/sheilalo" target="_blank">Resume</a></li>' +
           '<li><a href="contact.html">Contact</a></li>' +
         '</ul>' +
