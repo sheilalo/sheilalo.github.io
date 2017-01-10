@@ -3,7 +3,7 @@ $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
     $(this).ekkoLightbox({always_show_close: false});
 });
 
-$(document).ready(function() {
+window.onload = function() {
 
 $('.contentImg').each(function () {
     $(this).parent().css({
@@ -15,4 +15,4 @@ $('.contentImg').each(function () {
     'max-height': '100%',
     'max-width': '100%'
 });
-});
+}
