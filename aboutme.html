@@ -30,6 +30,9 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
+    <!-- Ekko Lightbox -->
+    <link href="dist/ekko-lightbox.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -46,35 +49,83 @@
 
     <div class="about-me">
 
-    <p class="about-me-text">Hi there! I'm Sheila, a first year graduate student at <a href="http://www.northwestern.edu/">Northwestern University</a> pursuing an MS in <a href="http://segal.northwestern.edu/programs/graduate/engineering-design-innovation/">Engineering Design Innovation</a>. I graduated from the <a href="https://www.caltech.edu/">California Institute of Technology</a> with a BS in <a href="http://www.mce.caltech.edu/">Mechanical Engineering</a>.</p>
+    <h3>Hi there!</h3>
+    <p class="about-me-text">I'm Sheila, a first year graduate student at <a href="http://www.northwestern.edu/">Northwestern University</a> pursuing an MS in <a href="http://segal.northwestern.edu/programs/graduate/engineering-design-innovation/">Engineering Design Innovation</a>. I graduated from the <a href="https://www.caltech.edu/">California Institute of Technology</a> with a BS in <a href="http://www.mce.caltech.edu/">Mechanical Engineering</a>.</p>
     <p class="about-me-text">My experiences in mechanical design and emergency medicine have inspired me to pursue human-centered design. To create better user experiences, I am currently exploring the worlds of mechatronics, interaction design, and user experience research. I want to create beautiful products that people both can and want to use.</p>
 
     <div class="page-header"></div>
-		<h3>I like running.</h3>
-    	<p class="about-me-text">I'm a distance runner who has raced between 1600 m and full marathons. I most recently ran the Chicago Marathon in 2016. My next race is the Chicago Marathon in 2017.</p>
+            <h3>I like running.</h3>
+            <p class="about-me-text">I'm a distance runner who has raced between 1600 m and full marathons. I most recently ran the Chicago Marathon in 2016. My next race is the Chicago Marathon in 2017.</p>
 
     <div class="page-header"></div>
-    	<h3>I also like traveling and photography.</h3>
+        <h3>I also like traveling and photography.</h3>
 
     </div>
 
-<!--
-    <div class="about-me">
+    <div class="row about-me-gallery">
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Rome.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Rome, Italy">
+                <img src="img/thumb/Rome.jpg" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Prague.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Prague, Czech Republic">
+                <img src="img/thumb/Prague.jpg" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/London.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="London, England">
+                <img src="img/thumb/London.jpg" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Moscow.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Moscow, Russia">
+                <img src="img/thumb/Moscow.jpg" class="img-responsive">
+            </a>
+        </div>
 
-    <div class="row">
-      <div class="col-md-5">
-        <img src="img/aboutme.jpg" alt="About Me">
-      </div>
-      <div class="col-md-7">
-        <p class="about-me-text-intro">Hi there! I’m Sheila, a first year graduate student at Northwestern University pursuing an MS in Engineering Design Innovation. I graduated from the California Institute of Technology in June 2016 with a BS in Mechanical Engineering.</p>
-        <p class="about-me-text">My experiences in engineering design and emergency medicine have inspired me to pursue human-centered design. Ergonomics are important. I want to find elegant solutions to hard problems in order to make user experience more intuitive and accessible. My goal as a human-centered design engineer is to be the user’s advocate, to ultimately create products that people both can and want to use.</p>
-        <p class="about-me-text">In my free time, I enjoy photography, running, and traveling (sometimes all at once).</p>
-      </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Berlin.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Berlin, Germany">
+                <img src="img/thumb/Berlin.jpg" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Budapest.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Budapest, Hungary">
+                <img src="img/thumb/Budapest.jpg" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Moher.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Cliffs of Moher, Ireland">
+                <img src="img/thumb/Moher.jpg" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Istanbul.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Istanbul, Turkey">
+                <img src="img/thumb/Istanbul.jpg" class="img-responsive">
+            </a>
+        </div>
 
-    </div> 
-
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Amsterdam.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Amsterdam, Netherlands">
+                <img src="img/thumb/Amsterdam.jpg" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Bratislava.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Bratislava, Slovakia">
+                <img src="img/thumb/Bratislava.jpg" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Scotland.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Highlands, Scotland">
+                <img src="img/thumb/Scotland.jpg" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-md-3 about-me-thumb">
+            <a href="img/hires/Kiev.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Kiev, Ukraine">
+                <img src="img/thumb/Kiev.jpg" class="img-responsive">
+            </a>
+        </div>
     </div>
--->
 
     </div>
 
@@ -87,5 +138,8 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="dist/ekko-lightbox.js"></script>
+    <script src="modalHandler.js"></script>
+
   </body>
 </html>

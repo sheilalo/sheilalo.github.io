@@ -8,11 +8,6 @@ html {
     overflow-y: scroll;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-/* Mobile responsive adjustments */
 @media (min-width: 768px) {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
@@ -39,22 +34,20 @@ a:hover {
   }
 }
 
-/* Index page */
+a:hover {
+	text-decoration: none;
+}
+
 .intro-text {
-	padding: 160px 0px;
+	padding: 150px 15px;
+	text-align: center;
 }
 
 .intro-text h1 {
-	font-weight: 700;
-    margin-bottom: 15px;
+	font-weight: 800;
 	letter-spacing: 1px;
 }
 
-.lead {
-    margin-bottom: 5px;
-}
-
-/* Project pages */
 .project-text h1 {
 	font-size: 28px;
 	font-weight: 500;
@@ -70,7 +63,6 @@ a:hover {
 	line-height: 24px;
 }
 
-/* Images */
 img {
     padding: 0;
     display: block;
@@ -84,7 +76,6 @@ img {
 	font-weight: bold;
 }
 
-/* Videos */
 .video-container {
 	max-width: 560px;
 }
@@ -115,16 +106,8 @@ img {
 	letter-spacing: 25px;
 }
 
-.page-header {
-    margin-bottom: 40px;
-}
-
 .about-me {
 	margin-top: 40px;
-}
-
-.about-me-text {
-    margin-right: 280px;
 }
 
 @media (max-width: 991px) {
@@ -152,14 +135,8 @@ img {
 	padding-top: 30px;
 }
 
-/** Portfolio Sorting **/
-#content-filter {
-    margin-top: 15px;
-    text-align: center;
-}
-
 .content-filter-item {
-    font-size: 20px;4
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
 }
@@ -168,77 +145,23 @@ img {
     font-weight: bold;
 }
 
-.content-filter-item {
-    color: #0D214B;
+.imgContainer {
+    text-align: center;
 }
 
-/* Modal images */
 .contentImg {
     cursor: pointer;
 }
 
 .contentImg:hover {opacity: 0.87;}
 
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+.about-me-thumb {
+    margin-bottom:20px;
 }
+.about-me-thumb:hover {opacity: 0.87;}
 
-/* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    max-width: 800px;
-    border-radius: 0px;
-}
-
-/* Caption of Modal Image */
-#modal-caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 800px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 50px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+.about-me-gallery {
+    margin-top:30px;
 }
 
 /* 95% Image Width on Smaller Screens */

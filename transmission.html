@@ -30,6 +30,9 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
+    <!-- Ekko Lightbox -->
+    <link href="dist/ekko-lightbox.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -49,8 +52,11 @@
       <h1>Transmission <small>May 2014</small></h1>
         <h2>Overview</h2>
         	<p>As part of ME 14: Design and Fabrication, students were tasked with creating a single-ratio transmission for a custom bicycle setup.</p>
-
-          <img class="contentImg" src="img/transmission_assembly.png" alt="Transmission assembly CAD" width="30%" height="30%">
+          <div class="imgContainer">
+            <a href="img/hires/transmission_assembly.png" data-toggle="lightbox">
+              <img src="img/thumb/transmission_assembly.png" class="img-responsive contentImg">
+            </a>
+          </div>
             <div class="caption">
                 <p>Transmission assembly CAD</p>
             </div>
@@ -59,8 +65,11 @@
           <p>The goal of this project was to design and fabricate a transmission that would result in the highest rotational speed of the bicycle and require the shortest time for the wheel to reach 250 RPM.</p>
         <h2>Process</h2>
         	<p>To determine the necessary gear ratio, we did calculations in MATLAB. From there, we evaluated the commercially available options for our gears, taking into consideration the cost of gears and the time it took for parts to ship. We then created a Bill of Materials (BOM) that showed the cost of our parts would be within our budget of $75. After an initial design and a Preliminary Design Review (PDR) with our professor and teaching assistants, we finalized our design.</p>
-          
-          <img class="contentImg" src="img/transmission_cad.png" alt="Transmission CAD" width="40%" height="40%">
+          <div class="imgContainer">
+            <a href="img/hires/transmission_cad.png" data-toggle="lightbox">
+              <img src="img/thumb/transmission_cad.png" class="img-responsive contentImg">
+            </a>
+          </div>
             <div class="caption">
                 <p>Transmission CAD</p>
             </div>
@@ -69,16 +78,22 @@
           <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-3">
-
-              <img class="contentImg" src="img/transmission_basebeforepdr.png" alt="Transmission base before PDR" width="90%" height="90%">
+              <div class="imgContainer">
+                <a href="img/hires/transmission_basebeforepdr.png" data-toggle="lightbox">
+                  <img src="img/thumb/transmission_basebeforepdr.png" class="img-responsive contentImg">
+                </a>
+              </div>
                 <div class="caption">
                   <p>Transmission base before PDR</p>
                 </div>
 
             </div>
             <div class="col-md-3">
-
-              <img class="contentImg" src="img/transmission_baseafterpdr.png" alt="Transmission base after PDR" width="90%" height="90%">
+              <div class="imgContainer">
+                <a href="img/hires/transmission_baseafterpdr.png" data-toggle="lightbox">
+                  <img src="img/thumb/transmission_baseafterpdr.png" class="img-responsive contentImg">
+                </a>
+              </div>
                 <div class="caption">
                   <p>Transmission base after PDR</p>
                 </div>
@@ -87,23 +102,17 @@
             <div class="col-md-3"></div>
           </div>
         <h2>Final Design</h2>
-
-          <img class="contentImg" src="img/transmission_finaldesign.jpg" alt="Final transmission design" width="30%" height="30%">
+          <div class="imgContainer">
+            <a href="img/hires/transmission_finaldesign.jpg" data-toggle="lightbox">
+              <img src="img/thumb/transmission_finaldesign.jpg" class="img-responsive contentImg">
+            </a>
+          </div>
             <div class="caption">
                 <p>Final transmission design</p>
             </div>
 
         <h2>Results</h2>
           <p>Our transmission operated successfully, reaching a maximum speed of 357.47 RPM and a time of 17.79 seconds to reach 250 RPM. From the 12 transmissions created by our class, the maximum speeds reached ranged from 264.08 RPM to 357.47 RPM. The time to 250 RPM ranged from 16.89 seconds to 44.19 seconds.</p>
-
-      <!-- The Modal -->
-      <div id="imgModal" class="modal">
-          <span class="close">&times;</span>
-          <img class="modal-content" id="image">
-          <div id="modal-caption"></div>
-      </div>
-
-    </div>
 
     </div>
 
@@ -116,6 +125,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="dist/ekko-lightbox.js"></script> 
     <script src="modalHandler.js"></script>
 
   </body>

@@ -30,6 +30,9 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
+    <!-- Ekko Lightbox -->
+    <link href="dist/ekko-lightbox.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -51,8 +54,11 @@
           <p>As part of DSGN 420: Design Communication and Methods, students created infographics and video animations to encourage young adults to vote.</p>
         <h2>Final Design</h2>
           <p>My goal was to dismiss the myth that the youth vote “doesn’t matter” and show that we can greatly impact our government by voting. I used a color scheme that played off of patriotic colors, while using arrows to maintain a steady pace in the presentation of information.</p>
-
-          <img class="contentImg" src="img/infographic.png" alt="Youth vote infographic" width="35%" height="35%">
+          <div class="imgContainer">
+            <a href="img/hires/infographic.png" data-toggle="lightbox">
+              <img src="img/thumb/infographic.png" class="img-responsive contentImg">
+            </a>
+          </div>
             <div class="caption">
                 <p>Youth vote infographic</p>
             </div>
@@ -68,13 +74,6 @@
             <p>Infographic animation</p>
           </div>
 
-      <!-- The Modal -->
-      <div id="imgModal" class="modal">
-          <span class="close">&times;</span>
-          <img class="modal-content" id="image">
-          <div id="modal-caption"></div>
-      </div>
-
     </div>
 
     </div>
@@ -88,6 +87,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="dist/ekko-lightbox.js"></script>
     <script src="modalHandler.js"></script>
 
   </body>

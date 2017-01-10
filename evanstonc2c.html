@@ -30,6 +30,9 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
+    <!-- Ekko Lightbox -->
+    <link href="dist/ekko-lightbox.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -53,26 +56,26 @@
         <h2>Final Design</h2>
           <p>My poster design revolved around the concept of summer learning loss. Summer learning loss is when a student loses two to three months of reading skills during the summer. Evanston Cradle to Career strives to make parents aware of the impact of summer learning loss on long term academic achievement and to promote educational summer programs. I used large text to draw the reader in so that they could clearly see “read between the lines” and be drawn in to read more of the small typography that sat literally between the lines. All elements were centered for consistency and a sans serif font was chosen for easy readability.</p>
 
-          <img class="contentImg" src="img/evanstonc2c_poster.png" alt="Poster for Evanston Cradle to Career" width="40%" height="40%">
-            <div class="caption">
-                <p>Poster for Evanston Cradle to Career</p>
-            </div>
+          <div class="imgContainer">
+            <a href="img/hires/evanstonc2c_poster.png" data-toggle="lightbox">
+              <img src="img/thumb/evanstonc2c_poster.png" class="img-responsive contentImg">
+            </a>
+          </div>
+          <div class="caption">
+              <p>Poster for Evanston Cradle to Career</p>
+          </div>
 
         <h2>What Else?</h2>
           <p>At the conclusion of our graphic design module, we held a <a href="http://segal.northwestern.edu/news-events/articles/design-communication-and-methods-posters-2016.html#.WDJEaeYrJPY">poster symposium</a> to showcase our work. We presented our poster designs to the Executive Director of Evanston Cradle to Career.</p>
 
-          <img class="contentImg" src="img/evanstonc2c_symposium.jpg" alt="Presenting my poster at the symposium" width="35%" height="35%">
-            <div class="caption">
-                <p>Presenting my poster at the symposium</p>
-            </div>
-
-      <!-- The Modal -->
-      <div id="imgModal" class="modal">
-          <span class="close">&times;</span>
-          <img class="modal-content" id="image">
-          <div id="modal-caption"></div>
-      </div>
-
+          <div class="imgContainer">
+            <a href="img/hires/evanstonc2c_symposium.jpg" data-toggle="lightbox">
+              <img src="img/thumb/evanstonc2c_symposium.jpg" class="img-responsive contentImg">
+            </a>
+          </div>
+          <div class="caption">
+              <p>Presenting my poster at the symposium</p>
+          </div>
     </div>     
 
     </div>
@@ -86,6 +89,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="dist/ekko-lightbox.js"></script>
     <script src="modalHandler.js"></script>
 
   </body>
