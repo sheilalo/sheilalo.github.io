@@ -5,22 +5,22 @@
   }
 }
 .navbar-default {
-    background-color: #adc6fa;
-    border-color: #adc6fa;
+    background-color: #CEEEFF;
+    border-color: #CEEEFF;
     font-size: 17px;
 }
 .navbar-default .navbar-nav li a {
-    color:#333333;
+    color:#00245E;
 }
 .navbar-default .navbar-nav li a:hover {
-    color:#333333;
+    color:#00245E;
     font-weight: bold;
 }
 .navbar-default .navbar-brand {
     font-size: 22px;
-    color:#333333;
+    color:#00245E;
 }
 .navbar-default .navbar-brand:hover {
-    color:#333333;
+    color:#00245E;
     font-weight: bold;
 }

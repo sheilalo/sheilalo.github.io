@@ -8,6 +8,14 @@ html {
     overflow-y: scroll;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #00307F;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+  color: #3663AA;
+}
+
 @media (min-width: 768px) {
   .container {
   	padding-right: 45px;
@@ -47,6 +55,10 @@ a:hover {
 	letter-spacing: 1px;
 }
 
+.lead {
+    color: #00307F;;
+}
+
 @media (min-width: 768px) {
     .lead {
         font-size: 24px;
@@ -68,7 +80,7 @@ a:hover {
 
 .container .project-text p {
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 23.5px;
 }
 
 img {
@@ -82,15 +94,16 @@ img {
 .caption {
 	text-align: center;
 	font-weight: bold;
+    color: #333;
 }
 
 .portfolio-caption {
-    background-color:#eeeeee;
+    background-color:#CEEEFF;
     padding: 7px 0;
     max-width: 250px;
     margin:0 auto;
     text-decoration: none;
-    color: #333;
+    color: #00307F;
     margin-bottom:20px;
 }
 
@@ -107,6 +120,7 @@ img {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
+
 .portfolio-item:hover {
     opacity:0.7;
 }
@@ -117,6 +131,7 @@ img {
     text-align: center;
     box-sizing:border-box;
 }
+
 .thumbnail {
     padding:0px;
 }

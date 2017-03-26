@@ -47,7 +47,7 @@
     <!-- Fixed navbar -->
     <div id="navMenu"></div>
 
-    <div class="container project-container">
+    <div class="container">
 
     <div class="project-text">
 
@@ -63,8 +63,9 @@
             </div>
           </center>
 
-        <h2>Process</h2>
-          <p>My group began brainstorming by thinking of routines that could be implemented in a different way such as managing personal finances, navigating to an unfamiliar destination, and initiating conversations when networking. We also reflected on a class discussion on how as a glass of water is filled up, the pitch increases, which is an audible cue to turn off the faucet.  We decided to turn this feedback into control so that the power of a user’s voice could fill a glass of water.</p>
+        <h2>Brainstorming</h2>
+          <p>My group began brainstorming by <b>thinking of routines that could be implemented in a different way</b> such as managing personal finances, navigating to an unfamiliar destination, and initiating conversations when networking. We also reflected on a class discussion on how as a glass of water is filled up, the pitch increases, which is an audible cue to turn off the faucet.  We decided to turn this <b>feedback into control</b> so that the <b>power of a user’s voice could fill a glass of water</b>.</p>
+          
           <div class="imgContainer">
             <a href="img/hires/simonsings_goal.PNG" data-toggle="lightbox">
               <img src="img/thumb/simonsings_goal.PNG" class="img-responsive contentImg">
@@ -74,7 +75,9 @@
                 <p>High level concept of Simon Sings</p>
             </div>
 
-          <p>Our first prototype was a play on the game Simon Says. “Simon” would “teach” the user how to fill their own cup with water by playing a pitch and then filling a glass. The user would then be prompted to repeat after Simon until the glass was filled. We created a low fidelity foamcore mockup and presented our idea to the class to get feedback.</p>
+        <h2>Prototyping</h2>
+          <p>Our first prototype was a play on the game Simon Says. “Simon” would “teach” the user how to fill their own cup with water by playing a pitch and then filling a glass. The user would then be prompted to repeat after Simon until the glass was filled. We created a <b>low fidelity foamcore mockup</b> and presented our idea to the class to get feedback.</p>
+          
           <div class="imgContainer">
             <a href="img/hires/simonsings_prototype.jpg" data-toggle="lightbox">
               <img src="img/thumb/simonsings_prototype.jpg" class="img-responsive contentImg">
@@ -84,7 +87,9 @@
                 <p>Foamcore prototype of Simon Sings</p>
             </div>
 
-          <p>In response to the feedback we received, we decided to conduct further user research to understand the most intuitive way to control the filling of the glass. We wanted to understand if it was more intuitive to: sing a continuously ascending pitch, sing three predetermined ascending notes, or sing any three ascending notes. From our research, we found that singing a single ascending pitch was not intuitive, as users didn’t understand the mapping of their pitch to water level. Matching three tones was also difficult for some users. We finally decided to design our interaction so that any three ascending notes would fill the glass in three discrete amounts.</p>
+        <h2>User Research</h2>
+          <p>In response to the feedback we received, we decided to conduct further user research to <b>understand the most intuitive way to control the filling of the glass</b>. We wanted to understand if it was more intuitive to: sing a continuously ascending pitch, sing three predetermined ascending notes, or sing any three ascending notes. From our research, we found that singing a single ascending pitch was not intuitive, as users didn’t understand the mapping of their pitch to water level. Matching three tones was also difficult for some users. We finally decided to design our interaction so that any three ascending notes would fill the glass in three discrete amounts.</p>
+        
         <h2>Final Design</h2>
           <div class="imgContainer">
             <a href="img/hires/simonsings_final.jpg" data-toggle="lightbox">
@@ -107,6 +112,7 @@
             </div>
 
           <p>This is repeated two more times until all of the LEDs are lit up, symbolizing that the bottle has been filled. A triumphant “ta-da” sound is played to signal the end the Learn side of the interaction and to convey a sense of accomplishment. The light on the Learn side then turns off and the light on the Do side turns on so that the user knows that it is their turn.</p>
+          
           <p>The user presses the now lit green button on the Do side, which evokes the feeling of using an intercom system, and then whistles into the microphone. The green button was also designed to be a safety feature so that if the microphone picked up external noises, water would not unexpectedly flow. A solenoid valve then opens for a set amount of time and fills 1/3 of the bottle with water. The user repeats this process two more times, whistling a pitch that was higher than the last, to fill the bottle.</p>
 
           <div class="imgContainer">
@@ -121,7 +127,7 @@
           <p>Again, a triumphant “ta-da” sound is played, prompting the user that they have successfully filled the bottle. The light on the Do side turns off, signaling that the entire interaction has been completed.</p>
 
         <h2>My Role</h2>
-          <p>My primary roles were to design/implement the voice controlled part of Simon Sings and ensure that all of the electrical components were integrated correctly. To analyze the pitch the user sang, I used a Fast Fourier Transform (FFT) library on a Teensy LC microcontroller. Due to the library’s large processor and memory footprint, we chose to break of some of the interaction to a separate Arduino Uno. We also decided to center our interaction around whistling because whistling has a more harmonically pure spectrum than singing, which greatly simplified our signal processing algorithm without deviating from people’s mental models of the game Simon Says.</p>
+          <p>My primary roles were to <b>design/implement the voice controlled part of Simon Sings</b> and ensure that all of the electrical components were integrated correctly. To analyze the pitch the user sang, I used a Fast Fourier Transform (FFT) library on a Teensy LC microcontroller. Due to the library’s large processor and memory footprint, we chose to break of some of the interaction to a separate Arduino Uno. We also decided to center our interaction around whistling because whistling has a more harmonically pure spectrum than singing, which greatly simplified our signal processing algorithm without deviating from people’s mental models of the game Simon Says.</p>
 
           <div class="imgContainer">
             <a href="img/hires/simonsings_troubleshoot.jpg" data-toggle="lightbox">
