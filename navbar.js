@@ -18,7 +18,7 @@ ga('send', 'pageview');
 
 document.getElementById("navMenu").innerHTML =
   '<nav class="navbar navbar-default navbar-fixed-top">' +
-    '<div class="container">' +
+    '<div class="container-fluid">' +
       '<div class="navbar-header">' +
         '<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">' +
           '<span class="sr-only">Toggle navigation</span>' +
@@ -33,9 +33,27 @@ document.getElementById("navMenu").innerHTML =
           '<li><a href="index.html">Home</a></li>' +
           '<li><a href="aboutme.html">About Me</a></li>' +
           '<li><a href="portfolio.html">Portfolio</a></li>' +
-          '<li><a href="https://www.linkedin.com/in/sheilalo" target="_blank">Resume</a></li>' +
+          '<li><a href="./Sheila_Lo_Resume.pdf" target="_blank">Resume</a></li>' +
           '<li><a href="contact.html">Contact</a></li>' +
         '</ul>' +
       '</div><!--/.nav-collapse -->' +
    '</div>' +
   '</nav>';
+
+$(window).on('resize', function(){
+
+    var current_width = window.innerWidth;
+    $('.navbar-right').css('margin-right', String(current_width * .05 - 45) + 'px');
+    $('.navbar-header').css('margin-left', String(current_width * .05 - 30) + 'px');
+    
+    if (current_width >= 769) {
+        // Set spacing between navbar list items (Home, About Me, etc)
+        $('.navbar li').css('margin-left', String(0.031788 * (current_width-845)) + 'px');
+    } else {
+        // On mobile, don't mess around with navbar list item spacing
+        $('.navbar li').css('margin-left','0px');
+        // navbar left header left margin should be same as between menu and right of page
+        $('.navbar-header').css('margin-left','-16.5px');
+    }
+
+}).resize();
