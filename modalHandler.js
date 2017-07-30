@@ -3,16 +3,17 @@ $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
     $(this).ekkoLightbox({always_show_close: false});
 });
 
-window.onload = function() {
 
-$('.contentImg').each(function () {
-    $(this).parent().css({
-        'height': $(this).height(),
-        'width': $(this).width(),
-        'display': 'inline-block'
-    })
-}).css({
-    'max-height': '100%',
-    'max-width': '100%'
-});
+/* Makes clickable area for images only over images themselves */
+window.onload = function() {
+    $('.contentImg').each(function () {
+        $(this).parent().css({
+            'height': $(this).height(),
+            'width': $(this).width(),
+            'display': 'inline-block'
+        })
+    }).css({
+        'max-height': '100%',
+        'max-width': '100%'
+    });
 }

@@ -218,3 +218,7 @@ img {
         width: 95%;
     }
 }
+
+.modal-open {
+    padding-right: 0 !important
+}
