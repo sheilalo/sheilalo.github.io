@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-    <title>Sheila Lo | Quick Release Mechanism</title>
+    <title>Sheila Lo | PID Motor Control</title>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -35,50 +35,50 @@
     <!-- Ekko Lightbox -->
     <link href="dist/ekko-lightbox.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+</head>
+<body>
 
-  <body>
-
-    <!-- Fixed navbar -->
     <div id="navMenu"></div>
 
     <div class="container">
 
     <div class="project-text">
 
-      <h1>Formula One Quick Release Mechanism <small>September 2015 - November 2015 <br> Engineering</small></h1>
+        <h1>PID Motor Control <small>January 2017 - March 2017 <br> Mechatronics</small></h1>
+
         <h2>Overview</h2>
-        	<p>As part of MECE09029: Computer Aided Engineering 3, I reverse engineered and modeled a <b>Formula One quick release mechanism and steering wheel</b>.</p>
-          <div class="imgContainer">
-            <a href="img/hires/quickrelease_mechanism.jpg" data-toggle="lightbox">
-              <img src="img/thumb/quickrelease_mechanism.jpg" class="img-responsive contentImg">
-            </a>
-          </div>
+
+            <p>As part of ME 333: Introduction to Mechatronics, I created a PID motor control system in which a user could specify angles and trajectories for the control system to follow. The motor control code for the PIC32 was written in C, which then interfaced with the client user interface in MATLAB.</p>
+
+        <h2>Process</h2>
+
+            <p>In order to control the position of the motor, I used two nested PID loops. The inner loop fed back on the current to the motor while the outer loop fed back on position, as seen below.</p>
+
+            <!-- Insert stolen textbook image -->
+
+            <p>I created a text-based user interface in MATLAB to command the PIC over a UART connection. With the proper input, the user could tell the motor to move to a position, follow a trajectory, etc. In some cases while tuning the controller, I discovered a "propeller" mode due to the poor gains.</p>
+
+            <p>After tuning the PID controller, the motor was able to closely follow the trajectory shown below.</p>
+
+            <!-- Insert matlab plot of trajectory following -->
+
+        <h2>Results</h2>
+
+            <center>
+                <div class="video-container">
+                    <div class="video-container-smaller">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eSMwSt14dP0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </center>
             <div class="caption">
-                <p>Exploded view of quick release mechanism</p>
+                <p>Demonstration of PID motor control project</p>
             </div>
 
-        <h2>Purpose</h2>
-        	<p>The course served to familiarize students with different tools in Solid Edge including: parametric modeling, assemblies, finite elements, optimization, curves and surfaces, direct/synchronous modeling, standard parts, rendering and animation, and drawings. This class culminated in a final report evaluating Solid Edge CAD tools and showcasing our quick release mechanisms.</p>
-        <h2>Final Design</h2>
-        	<p>I received a 77 (A3) for my quick release model and CAD report. Highlights of the model can be seen at this <a href="https://www.youtube.com/watch?v=qskqF5r8kBA" target="_blank">link</a>.</p>
-          <div class="imgContainer">
-            <a href="img/hires/quickrelease_render.jpg" data-toggle="lightbox">
-              <img src="img/thumb/quickrelease_render.jpg" class="img-responsive contentImg">
-            </a>
-          </div>
-            <div class="caption">
-                <p>Render of quick release model</p>
-            </div>
+            <p></p>
 
-    </div>
-
-    </div>
+    </div> <!-- /.project-text -->   
+    </div> <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -92,5 +92,5 @@
     <script src="dist/ekko-lightbox.js"></script>
     <script src="modalHandler.js"></script>
 
-  </body>
+</body>
 </html>
