@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,188 +35,192 @@
     <!-- Ekko Lightbox -->
     <link href="dist/ekko-lightbox.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- Fixed navbar -->
     <div id="navMenu"></div>
 
     <div class="container">
 
     <div class="project-text">
 
-      <h1>Allez: One Arm Wheelchair Drive <small>January 2016 - July 2016 <br> Product Design, Mechanical Design</small></h1>
+        <h1>Allez: One Arm Wheelchair Drive <small>January 2016 - July 2016 <br> Product Design, Mechanical Design</small></h1>
 
         <h2>Overview</h2>
-          <p>As part of E/ME/MedE 105: Design for Freedom from Disability at Caltech, my team designed and prototyped a modular one arm wheelchair drive attachment for manual wheelchairs for individuals with hemiplegia. We were <a href="http://www.resna.org/news-events/annual-meeting/annual-meeting-archives/program/student-design-competition" target="_blank">Rehabilitation Engineering and Assistive Technology Society of North America (RESNA) Student Design Competition</a> finalists.</p>
 
-          <div class="imgContainer">
-            <a href="img/hires/allez_revcprototype.jpg" data-toggle="lightbox">
-              <img src="img/thumb/allez_revcprototype.jpg" class="img-responsive contentImg">
-            </a>
-          </div>
-          <div class="caption">
-              <p>Final one arm wheelchair drive design</p>
-          </div>
+            <p>As part of E/ME/MedE 105: Design for Freedom from Disability at Caltech, my team designed and prototyped a modular one arm wheelchair drive attachment for manual wheelchairs for individuals with hemiplegia. We were <a href="http://www.resna.org/news-events/annual-meeting/annual-meeting-archives/program/student-design-competition" target="_blank">Rehabilitation Engineering and Assistive Technology Society of North America (RESNA) Student Design Competition</a> finalists.</p>
+
+            <div class="imgContainer">
+                <a href="img/hires/allez_revcprototype.jpg" data-toggle="lightbox">
+                    <img src="img/thumb/allez_revcprototype.jpg" class="img-responsive contentImg">
+                </a>
+            </div>
+            <div class="caption">
+                <p>Final one arm wheelchair drive design</p>
+            </div>
 
         <h2>Problem</h2>
-          <p>A common condition that arises as a result of stroke is <b>hemiplegia</b>, weakness of one side of the body. Currently, <b>there aren’t very good mobility solutions for individuals with hemiplegia</b>. If people were to propel themselves with their strong arm in a manual wheelchair, they’d just move in circles! Right now, individuals either: propel their manual wheelchairs with their arms and steer with their foot, propel and steer with their foot, or use commercially available one arm drives that physical therapists don’t recommend to their patients because they don’t work all that well.</p>
+
+            <p>A common condition that arises as a result of stroke is <b>hemiplegia</b>, weakness of one side of the body. Currently, <b>there aren’t very good mobility solutions for individuals with hemiplegia</b>. If people were to propel themselves with their strong arm in a manual wheelchair, they’d just move in circles! Right now, individuals either: propel their manual wheelchairs with their arms and steer with their foot, propel and steer with their foot, or use commercially available one arm drives that physical therapists don’t recommend to their patients because they don’t work all that well.</p>
 
         <h2>User/Market Research</h2>
-          <p>We began our project by trying to <b>understand the needs of our users and other stakeholders</b>. Our team spoke with physical therapists, rehabilitation engineers, caretakers, and individuals with hemiplegia in order to first determine points of tension with current mobility solutions. Additionally, from our research into existing commercially available one arm drives, we were able to <b>narrow the scope of our solution</b> to focus on controlling only one of the front caster wheels as that was all that was needed to control the direction of the wheelchair.</p>
+
+            <p>We began our project by trying to <b>understand the needs of our users and other stakeholders</b>. Our team spoke with physical therapists, rehabilitation engineers, caretakers, and individuals with hemiplegia in order to first determine points of tension with current mobility solutions. Additionally, from our research into existing commercially available one arm drives, we were able to <b>narrow the scope of our solution</b> to focus on controlling only one of the front caster wheels as that was all that was needed to control the direction of the wheelchair.</p>
 
         <h2>Prototyping</h2>
-          <p>For our first iteration, we wanted to <b>integrate a footplate that attached directly to the front caster wheel</b>. However, when we tested our first prototype, we learned that we needed significantly more force to keep the wheel pointed in the desired direction.</p>
 
-          <div class="imgContainer">
-            <a href="img/hires/allez_revamodular.jpg" data-toggle="lightbox">
-              <img src="img/thumb/allez_revamodular.jpg" class="img-responsive contentImg">
-            </a>
-          </div>
-          <div class="caption">
-            <p>Render of Rev A design with a modular footplate</p>
-          </div>
+            <p>For our first iteration, we wanted to <b>integrate a footplate that attached directly to the front caster wheel</b>. However, when we tested our first prototype, we learned that we needed significantly more force to keep the wheel pointed in the desired direction.</p>
 
-          <p>For our second iteration, we moved to an <b>electromechanical solution with an actuator assembly coupled to the front caster wheel</b>. We did some calculations as to how much force was needed to turn the wheel on a high friction surface in order to size our servo. To more easily troubleshoot our prototype, we opted to simplify our footplate mechanism by implementing a joystick instead.</p>
-
-          <div class="imgContainer">
-            <a href="img/hires/allez_revbrender.jpg" data-toggle="lightbox">
-              <img src="img/thumb/allez_revbrender.jpg" class="img-responsive contentImg">
-            </a>
-          </div>
-          <div class="caption">
-              <p>Render of Rev B design with actuator assembly</p>
-          </div>
-
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-3">
-              <div class="imgContainer">
-                <a href="img/hires/allez_revbgears.jpg" data-toggle="lightbox">
-                  <img src="img/thumb/allez_revbgears.jpg" class="img-responsive contentImg">
+            <div class="imgContainer">
+                <a href="img/hires/allez_revamodular.jpg" data-toggle="lightbox">
+                    <img src="img/thumb/allez_revamodular.jpg" class="img-responsive contentImg">
                 </a>
-              </div>
-              <div class="caption">
-                  <p>Closeup of gears on wheelchair</p>
-              </div>
             </div>
-            <div class="col-md-3">
-              <div class="imgContainer">
-                <a href="img/hires/allez_revbchair.jpg" data-toggle="lightbox">
-                  <img src="img/thumb/allez_revbchair.jpg" class="img-responsive contentImg">
-                </a>
-              </div>
-              <div class="caption">
-                <p>Rev B assembly</p>
-              </div>
+            <div class="caption">
+                <p>Render of Rev A design with a modular footplate</p>
             </div>
-            <div class="col-md-3"></div>
-          </div>
 
-          <p>Based on our testing, we found that we needed a stronger servo. Due to the angled design of the caster fork, the caster wheel flipped 180 degrees when a user moved backwards. This “flip” made it very difficult to calibrate direction input to actuator movement. For our third iteration, we implemented our <b>footplate mechanism</b> and <b>rebuilt our actuator assembly using a stronger servo</b>.</p>
-          
-          <div class="imgContainer">
-            <a href="img/hires/allez_revcoverview.jpg" data-toggle="lightbox">
-              <img src="img/thumb/allez_revcoverview.jpg" class="img-responsive contentImg">
-            </a>
-          </div>
-          <div class="caption">
-              <p>Rev C design overview</p>
-          </div>
+            <p>For our second iteration, we moved to an <b>electromechanical solution with an actuator assembly coupled to the front caster wheel</b>. We did some calculations as to how much force was needed to turn the wheel on a high friction surface in order to size our servo. To more easily troubleshoot our prototype, we opted to simplify our footplate mechanism by implementing a joystick instead.</p>
+
+            <div class="imgContainer">
+                <a href="img/hires/allez_revbrender.jpg" data-toggle="lightbox">
+                    <img src="img/thumb/allez_revbrender.jpg" class="img-responsive contentImg">
+                </a>
+            </div>
+            <div class="caption">
+                <p>Render of Rev B design with actuator assembly</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <div class="imgContainer">
+                        <a href="img/hires/allez_revbgears.jpg" data-toggle="lightbox">
+                            <img src="img/thumb/allez_revbgears.jpg" class="img-responsive contentImg">
+                        </a>
+                    </div>
+                    <div class="caption">
+                        <p>Closeup of gears on wheelchair</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="imgContainer">
+                        <a href="img/hires/allez_revbchair.jpg" data-toggle="lightbox">
+                            <img src="img/thumb/allez_revbchair.jpg" class="img-responsive contentImg">
+                        </a>
+                    </div>
+                    <div class="caption">
+                        <p>Rev B assembly</p>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            <p>Based on our testing, we found that we needed a stronger servo. Due to the angled design of the caster fork, the caster wheel flipped 180 degrees when a user moved backwards. This “flip” made it very difficult to calibrate direction input to actuator movement. For our third iteration, we implemented our <b>footplate mechanism</b> and <b>rebuilt our actuator assembly using a stronger servo</b>.</p>
+
+            <div class="imgContainer">
+                <a href="img/hires/allez_revcoverview.jpg" data-toggle="lightbox">
+                    <img src="img/thumb/allez_revcoverview.jpg" class="img-responsive contentImg">
+                </a>
+            </div>
+            <div class="caption">
+                <p>Rev C design overview</p>
+            </div>
 
         <h2>How It Works</h2>
-          <p>A <b>user rotates the electromechanical footplate with their strong foot</b> to indicate the direction they want the chair to go. A Hall effect sensor in the footplate reads the position of the rotated plates; there is a change in magnetic field when the magnet rotates with respect to the sensor, which is stationary on the bottom footplate. An <b>Arduino then translates that rotation into a desired position for an actuator assembly</b> that is coupled to the front caster wheel.</p>
-          <center>
-            <div class="video-container">
-              <div class="video-container-smaller">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hpg037bvyOg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-              </div>
+
+            <p>A <b>user rotates the electromechanical footplate with their strong foot</b> to indicate the direction they want the chair to go. A Hall effect sensor in the footplate reads the position of the rotated plates; there is a change in magnetic field when the magnet rotates with respect to the sensor, which is stationary on the bottom footplate. An <b>Arduino then translates that rotation into a desired position for an actuator assembly</b> that is coupled to the front caster wheel.</p>
+        
+            <center>
+                <div class="video-container">
+                    <div class="video-container-smaller">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hpg037bvyOg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </center>
+            <div class="caption">
+                <p>Animation of actuator assembly and footplate mechanism</p>
             </div>
-          </center>
-          <div class="caption">
-             <p>Animation of actuator assembly and footplate mechanism</p>
-          </div>
 
         <h2>User Testing</h2>
-          <p>In collaboration with Rancho Los Amigos National Rehabilitation Center in Downey, CA, my team <b>tested our prototype with inpatients and physical therapists</b>. It was essential for us to receive feedback from individuals who could be potential users and integrate their feedback into subsequent iterations of our one arm wheelchair drive.</p>
-          <center>
-            <div class="video-container">
-              <div class="video-container-smaller">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TyGg3AWk3tI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-          </center>
-          <div class="caption">
-             <p>Video compilation of product testing</p>
-          </div>
-          <p>After testing, we also <b>considered potential directions our project could go</b>. Ideas we had included adding a case to better protect against items from getting caught between the gears and a fail-safe disengage mechanism in the event of device failure.</p>
 
-          <div class="imgContainer">
-            <a href="img/hires/allez_case.png" data-toggle="lightbox">
-              <img src="img/thumb/allez_case.png" class="img-responsive contentImg">
-            </a>
-          </div>
-          <div class="caption">
-            <p>Case to isolate gears</p>
-          </div>
-          
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
-              <div class="imgContainer">
-                <a href="img/hires/allez_failsafeengaged.png" data-toggle="lightbox">
-                  <img src="img/thumb/allez_failsafeengaged.png" class="img-responsive contentImg">
-                </a>
-              </div>
-              <div class="caption">
-                <p>Fail-safe mechanism, engaged</p>
-              </div>
+            <p>In collaboration with Rancho Los Amigos National Rehabilitation Center in Downey, CA, my team <b>tested our prototype with inpatients and physical therapists</b>. It was essential for us to receive feedback from individuals who could be potential users and integrate their feedback into subsequent iterations of our one arm wheelchair drive.</p>
+
+            <center>
+                <div class="video-container">
+                    <div class="video-container-smaller">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TyGg3AWk3tI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </center>
+            <div class="caption">
+                <p>Video compilation of product testing</p>
             </div>
-            <div class="col-md-4">
-              <div class="imgContainer">
-                <a href="img/hires/allez_failsafedisengaged.png" data-toggle="lightbox">
-                  <img src="img/thumb/allez_failsafedisengaged.png" class="img-responsive contentImg">
+
+            <p>After testing, we also <b>considered potential directions our project could go</b>. Ideas we had included adding a case to better protect against items from getting caught between the gears and a fail-safe disengage mechanism in the event of device failure.</p>
+
+            <div class="imgContainer">
+                <a href="img/hires/allez_case.png" data-toggle="lightbox">
+                    <img src="img/thumb/allez_case.png" class="img-responsive contentImg">
                 </a>
-              </div>
-              <div class="caption">
-                <p>Fail-safe mechanism, disengaged</p>
-              </div>
             </div>
-          </div>
+            <div class="caption">
+                <p>Case to isolate gears</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="imgContainer">
+                        <a href="img/hires/allez_failsafeengaged.png" data-toggle="lightbox">
+                            <img src="img/thumb/allez_failsafeengaged.png" class="img-responsive contentImg">
+                        </a>
+                    </div>
+                    <div class="caption">
+                        <p>Fail-safe mechanism, engaged</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="imgContainer">
+                        <a href="img/hires/allez_failsafedisengaged.png" data-toggle="lightbox">
+                            <img src="img/thumb/allez_failsafedisengaged.png" class="img-responsive contentImg">
+                        </a>
+                    </div>
+                    <div class="caption">
+                        <p>Fail-safe mechanism, disengaged</p>
+                    </div>
+                </div>
+            </div>
 
         <h2>What Else?</h2>
-          <p>Allez means “go” in French. We designed our one arm wheelchair drive to be another potential mobility solution in order to <b>increase the independence of individuals with hemiplegia</b>. My teammates and I also all fenced on the Caltech Fencing team at one point in our undergraduate careers. Stephanie fenced foil, Auggie fenced sabre, and I fenced epee (the best weapon). The command of “allez” begins the bout.</p>
-          <p>In May 2016, our one arm wheelchair drive was selected as <b>one of six finalist projects from over 90 submissions to the RESNA Student Design Competition</b>! My team presented our project at the <a href="http://aac-rerc.psu.edu/wordpressmu/RESNA-SDC/2016/08/31/76-allez-a-modular-one-arm-wheelchair-drive-attachment-for-persons-with-hemiplegia-california-institute-of-technology-caltech-mechanical-engineering/" target="_blank">RESNA Conference</a> and <a href="http://www.resna.org/sites/default/files/2016DeveloperForum05.pdf" target="_blank">Developer’s Forum</a> in Washington DC in July 2016.</p>
 
-          <div class="imgContainer">
-            <a href="img/hires/allez_team.jpg" data-toggle="lightbox">
-              <img src="img/thumb/allez_team.jpg" class="img-responsive contentImg">
-            </a>
-          </div>
-          <div class="caption">
-              <p>Representing Caltech at the RESNA Conference</p>
-          </div>
+            <p>Allez means “go” in French. We designed our one arm wheelchair drive to be another potential mobility solution in order to <b>increase the independence of individuals with hemiplegia</b>. My teammates and I also all fenced on the Caltech Fencing team at one point in our undergraduate careers. Stephanie fenced foil, Auggie fenced sabre, and I fenced epee (the best weapon). The command of “allez” begins the bout.</p>
+          
+            <p>In May 2016, our one arm wheelchair drive was selected as <b>one of six finalist projects from over 90 submissions to the RESNA Student Design Competition</b>! My team presented our project at the <a href="http://aac-rerc.psu.edu/wordpressmu/RESNA-SDC/2016/08/31/76-allez-a-modular-one-arm-wheelchair-drive-attachment-for-persons-with-hemiplegia-california-institute-of-technology-caltech-mechanical-engineering/" target="_blank">RESNA Conference</a> and <a href="http://www.resna.org/sites/default/files/2016DeveloperForum05.pdf" target="_blank">Developer’s Forum</a> in Washington DC in July 2016.</p>
 
-          <p>After the competition, in the spirit of the scientific process, we, the RESNA Student Design Competition finalists, wanted to see how many engineers and occupational therapists you could fit into an elevator selfie. The answer: 13, with room to spare!</p>
+            <div class="imgContainer">
+                <a href="img/hires/allez_team.jpg" data-toggle="lightbox">
+                    <img src="img/thumb/allez_team.jpg" class="img-responsive contentImg">
+                </a>
+            </div>
+            <div class="caption">
+                <p>Representing Caltech at the RESNA Conference</p>
+            </div>
 
-          <div class="imgContainer">
-            <a href="img/hires/allez_elevatorselfie.jpg" data-toggle="lightbox">
-              <img src="img/thumb/allez_elevatorselfie.jpg" class="img-responsive contentImg">
-            </a>
-          </div>
-          <div class="caption">
-              <p>RESNA Student Design Competition finalists 2016</p>
-          </div>
+            <p>After the competition, in the spirit of the scientific process, we, the RESNA Student Design Competition finalists, wanted to see how many engineers and occupational therapists you could fit into an elevator selfie. The answer: 13, with room to spare!</p>
 
-      </div>     
+            <div class="imgContainer">
+                <a href="img/hires/allez_elevatorselfie.jpg" data-toggle="lightbox">
+                    <img src="img/thumb/allez_elevatorselfie.jpg" class="img-responsive contentImg">
+                </a>
+            </div>
+            <div class="caption">
+                <p>RESNA Student Design Competition finalists 2016</p>
+            </div>
 
-    </div>
+    </div> <!-- /.project-text -->
+    </div> <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -230,5 +234,5 @@
     <script src="dist/ekko-lightbox.js"></script>
     <script src="modalHandler.js"></script>
 
-  </body>
+</body>
 </html>
