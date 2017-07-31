@@ -25,3 +25,16 @@
     color: #E9E9E9;
     font-weight: bold;
 }
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #328CC1;
+    border-color: #E9E9E9;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0B3C5D;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: #E9E9E9;
+}
