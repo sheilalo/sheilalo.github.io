@@ -46,7 +46,7 @@ $(window).on('resize', function(){
     $('.navbar-right').css('margin-right', String(current_width * .05 - 45) + 'px');
     $('.navbar-header').css('margin-left', String(current_width * .05 - 30) + 'px');
     
-    if (current_width >= 769) {
+    if (current_width >= 768) {
         // Set spacing between navbar list items (Home, About Me, etc)
         $('.navbar li').css('margin-left', String(0.031788 * (current_width-845)) + 'px');
     } else {
