@@ -40,15 +40,8 @@ a:hover {
 }
 
 .intro-text {
-	/*padding: 150px 15px 75px 15px;*/
-    margin-top:15%;
+    margin-top:5%;
     margin-bottom:10%;
-}
-
-@media(max-width: 844px) {
-    .intro-text {
-        text-align: center;
-    }
 }
 
 .intro-text h1 {
@@ -224,6 +217,13 @@ img {
     .modal-content {
         width: 95%;
     }
+}
+
+#homecontainer {
+    position:absolute;
+    top: 50%;
+    left: 50%; /* Calculated using parent */
+    transform: translateX(-50%) translateY(-50%); /* Calculated as bounding box for this element */
 }
 
 .intro-text {
