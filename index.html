@@ -25,29 +25,20 @@
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
-    <link href="navbar.css" rel="stylesheet">
 
     <!-- Custom style for homepage -->
-    <style type="text/css">
+    <style>
         body {
-            background-color: #adc6fa;
+            background-image: url("img/home.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: right top;
         }
 
-        .container {
-            background-color:transparent;
-        }
-        @media (min-width: 1200px) {
-            .container {
-                width: 1200px;
-            }
-        }
-        @media (min-width: 845px){
-            body {
-                background-image: url('img/home.png');
-                background-size: 40% auto;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-position: 95% 100%; 
+        @media (max-width:768px) {
+            .intro-text {
+                margin-top: 8%;
             }
         }
     </style>
@@ -55,19 +46,32 @@
 </head>
 <body>
 
-    <div id="navMenu"></div>
-
     <div class="container" id="homecontainer">
 
         <div class="intro-text">
-            <h1>Hi! I'm <b>Sheila</b>.</h1>
-            
+            <h1><b>Hi there! I'm <span class="intro-text-blue">Sheila</span></b>.</h1>
             <p class="lead">
-                I work at the intersection of <br>
-                <b>human-centered design</b> and <br>
-                <b>disruptive technology</b> to create <br>
-                <b>elegant solutions</b> to <b>hard problems</b>.
-            </p>
+            I work at the intersection of<br>
+            <span class="intro-text-blue"><b>human-centered design</b></span> and<br>
+            <span class="intro-text-blue"><b>disruptive technology</b></span> to<br>
+            create elegant solutions to<br>
+            hard problems.</p>
+        </div>
+
+        <div class="intro-button">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-2">
+                    <a class="btn btn-default" href="aboutme.html" role="button">About Me</a>
+                </div>
+                <div class="col-md-2">
+                    <a class="btn btn-default" href="portfolio.html" role="button">Portfolio</a>
+                </div>
+                <div class="col-md-2">
+                    <a class="btn btn-default" href="contact.html" role="button">Contact</a>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
         </div>
 
     </div> <!-- /.container -->
@@ -78,7 +82,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="navbar.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>

@@ -40,7 +40,9 @@ a:hover {
 }
 
 .intro-text {
-	padding: 150px 15px;
+	/*padding: 150px 15px 75px 15px;*/
+    margin-top:15%;
+    margin-bottom:10%;
 }
 
 @media(max-width: 844px) {
@@ -51,10 +53,15 @@ a:hover {
 
 .intro-text h1 {
 	letter-spacing: 1px;
+    color: #E9E9E9;
+}
+
+.intro-text-blue {
+    color: #0B3C5D;
 }
 
 .lead {
-    color: #0d214b;
+    color: #E9E9E9;
 }
 
 @media (min-width: 768px) {
@@ -96,7 +103,7 @@ img {
 }
 
 .portfolio-caption {
-    background-color: #adc6fa;
+    background-color: #328CC1;
     padding: 7px 0;
     max-width: 250px;
     margin:0 auto;
@@ -217,6 +224,31 @@ img {
     .modal-content {
         width: 95%;
     }
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.intro-button {
+    text-align: center;
+}
+
+.btn {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #0B3C5D;
+    color: white;
+    border: 2px solid #0B3C5D;
+    font-size: 16px;
+    padding: 10px 24px;
+    margin-bottom:15px;
+}
+
+.btn:hover {
+    background-color: #E9E9E9;
+    color: #0B3C5D;
+    border: 2px solid #0B3C5D;
 }
 
 .modal-open {
