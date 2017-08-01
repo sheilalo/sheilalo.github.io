@@ -64,10 +64,6 @@ a:hover {
     color: #E9E9E9;
 }
 
-.intro-text-blue {
-    color: #0B3C5D;
-}
-
 .lead {
     color: #E9E9E9;
 }
@@ -186,20 +182,9 @@ img {
     max-width:570px;
 }
 
-@media (max-width: 991px) {
-	.about-me-text-intro {
-		font-size: 16px;
-		line-height: 24px;
-		padding-top: 30px;
-	}
-}
-
-@media (min-width: 992px) {
-	.about-me-text-intro {
-		font-size: 16px;
-		line-height: 24px;
-		padding-top: 55px;
-	}
+.about-me-text-intro {
+    font-size: 18px;
+    line-height:26px;
 }
 
 .about-me-portrait {
@@ -273,5 +258,5 @@ img {
 }
 
 .spacer-10px {
-    margin-top:10px;
+    padding-top:10px;
 }
