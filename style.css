@@ -177,10 +177,10 @@ img {
 
 .contentImg:hover {opacity: 0.87;}
 
-.about-me-thumb {
+.img-gallery-thumb {
     margin-bottom:20px;
 }
-.about-me-thumb:hover {opacity: 0.87;}
+.img-gallery-thumb:hover {opacity: 0.87;}
 
 .about-me-gallery {
     margin-top:30px;
