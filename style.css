@@ -16,6 +16,14 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
   color: #395280;
 }
 
+.dark-blue-text {
+    color: #0B3C5D;
+}
+
+.light-blue-text {
+    color: #328CC1;
+}
+
 @media (min-width: 768px) {
   .container {
   	padding-right: 45px;
@@ -54,10 +62,6 @@ a:hover {
 .intro-text h1 {
 	letter-spacing: 1px;
     color: #E9E9E9;
-}
-
-.intro-text-blue {
-    color: #0B3C5D;
 }
 
 .lead {
@@ -172,23 +176,21 @@ img {
 }
 
 .about-me {
-	margin-top: 40px;
+	margin-top: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:570px;
 }
 
-@media (max-width: 991px) {
-	.about-me-text-intro {
-		font-size: 16px;
-		line-height: 24px;
-		padding-top: 30px;
-	}
+.about-me-text-intro {
+    font-size: 18px;
+    line-height:26px;
 }
 
-@media (min-width: 992px) {
-	.about-me-text-intro {
-		font-size: 16px;
-		line-height: 24px;
-		padding-top: 55px;
-	}
+.about-me-portrait {
+    border-radius: 100%;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 .about-me-text {
@@ -253,4 +255,8 @@ img {
 
 .modal-open {
     padding-right: 0 !important
+}
+
+.spacer-10px {
+    padding-top:10px;
 }
