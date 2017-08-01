@@ -106,41 +106,6 @@ img {
     color: #333;
 }
 
-.portfolio-caption {
-    background-color: #328CC1;
-    padding: 7px 0;
-    max-width: 250px;
-    margin:0 auto;
-    text-decoration: none;
-    color: #0d214b;
-    margin-bottom:20px;
-}
-
-.portfolio {
-    padding-top: 20px;
-}
-
-.portfolio-item a div {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-
-.portfolio-item a img {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-}
-
-.portfolio-item:hover {
-    opacity: 0.7;
-}
-
-.portfolio-more {
-    background-color: #eee;
-    padding: 10px;
-    text-align: center;
-    box-sizing:border-box;
-}
-
 .thumbnail {
     padding:0px;
 }
