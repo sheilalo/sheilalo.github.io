@@ -28,7 +28,7 @@ body {
     transform: translateX(-50%) translateY(-50%); /* Calculated as bounding box for this element */
     width:150px;
     opacity: 0;
-    padding: 7px 10px;
+    padding: 10px 10px;
 }
 
 .portfolio-caption h4, .portfolio-caption h6 {
