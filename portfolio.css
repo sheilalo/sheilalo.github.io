@@ -18,6 +18,29 @@ body {
   }
 }
 
+.project-text h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #328CC1;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+
+.project-text h1 small {
+    color: #0B3C5D;
+}
+
+.project-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #328CC1;
+}
+
+.container .project-text p {
+    font-size: 16px;
+    line-height: 23.5px;
+}
+
 .portfolio-caption {
     background-color: #328CC1;
     border: 1px solid white;
@@ -60,3 +83,45 @@ body {
     position: relative;
     display: block;
 }
+
+.project-overview {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+@media only screen and (max-width:767px) {
+    .project-overview {
+        margin-top:0px;
+        padding-top:0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .project-overview {
+        margin-top:15px;
+        padding-top: 15px;
+    }
+}
+
+#project-overview-text {
+    background-color:#eee;
+    padding-left:20px;
+    padding-right:20px;
+    margin-right:0px;
+    padding-bottom: 5px;
+}
+
+.project-overview div {
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.container .project-overview div p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.project-overview-description {
+    padding-top:15px;
+}
+

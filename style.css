@@ -77,27 +77,6 @@ a:hover {
     }
 }
 
-.project-text h1 {
-	font-size: 28px;
-	font-weight: 700;
-    color: #328CC1;
-}
-
-.project-text h1 small {
-    color: #0B3C5D;
-}
-
-.project-text h2 {
-	font-size: 24px;
-	font-weight: 700;
-    color: #328CC1;
-}
-
-.container .project-text p {
-	font-size: 16px;
-	line-height: 23.5px;
-}
-
 img {
     padding: 0;
     display: block;
@@ -245,11 +224,4 @@ img {
 .contact-label {
     font-size:16px;
     font-weight: bold;
-}
-
-.project-overview {
-    background-color: #E9E9E9;
-    padding-top:15px;
-    padding-bottom:15px;
-    border-radius:3px;
 }
