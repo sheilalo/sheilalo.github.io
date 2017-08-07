@@ -47,6 +47,14 @@ a:hover {
 	text-decoration: none;
 }
 
+.projectTitle a {
+    color:#0B3C5D;
+}
+
+.projectTitle  a:hover {
+    text-decoration: none;
+    color:#328CC1;
+}
 .intro-text {
 	/*padding: 150px 15px 75px 15px;*/
     margin-top:15%;
@@ -204,6 +212,23 @@ img {
 .btn:hover {
     background-color: #E9E9E9;
     color: #0B3C5D;
+    border: 2px solid #0B3C5D;
+}
+
+.btn-light {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: white;
+    color: #0B3C5D;
+    border: 2px solid #0B3C5D;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-bottom:15px;
+}
+
+.btn-light:hover {
+    background-color: #0B3C5D;
+    color: white;
     border: 2px solid #0B3C5D;
 }
 
