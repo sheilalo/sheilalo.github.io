@@ -1,90 +1,67 @@
+<!-- Portfolio last edited December 13, 2020 -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="Sheila Lo">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+		<meta name="description" content="This is the design portfolio of Sheila Lo.">
+		<meta name="author" content="Sheila Lo">
 
-    <title>Sheila Lo</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="font-awesome/css/all.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto">
 
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+		<title>Sheila Lo | Portfolio</title>
+	</head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+	<body>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<div class="container">
 
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
+			<div class="greeting">
+				<h1>Hi, I'm <a href="#">Sheila</a>!</h1>
+			</div>
 
-    <!-- Custom style for homepage -->
-    <style>
-        body {
-            background-image: url("img/home.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: right top;
-        }
+			<div class="intro">
+				<p>I create products and experiences in healthcare. I'm currently at <a href="https://www.roche.com/" target="_blank">Roche</a> working on clinical decision support software and medical devices.</p>
+				<p>I studied <a href="http://www.mce.caltech.edu/" target="_blank">Mechanical Engineering</a> at <a href="http://www.caltech.edu" target="_blank">Caltech</a> and <a href="https://design.northwestern.edu/engineering-design-innovation/" target="_blank">Human-Centered Design</a> at <a href="https://www.northwestern.edu" target="_blank">Northwestern</a>. Previously, I was at <a href="https://www.gene.com/" target="_blank">Genentech</a>, <a href="https://www.proteus.com/" target="_blank">Proteus Digital Health</a>, and <a href="https://www.medtronic.com/us-en/index.html" target="_blank">Medtronic</a>.</p>
+			</div>
 
-        @media (max-width:768px) {
-            .intro-text {
-                margin-top: 8%;
-            }
-        }
-    </style>
+			<div class="social-media">
+				<div class="media" id="linkedin">
+					<a href="https://www.linkedin.com/in/sheilalo/" target="_blankd"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<div class="media" id="resume">
+					<a href="Sheila_Lo_Resume.pdf" target="_blankd"><i class="far fa-file-alt"></i></a>
+				</div>
+				<div class="media" id="email">
+					<a href="mailto: contact@sheilalo.com"><i class="far fa-envelope"></i></a>
+				</div>
+			</div>
 
-</head>
-<body>
+			<div class="projects">
+				<a class="box project" id="proteus" href="proteus.html">
+					<!--Proteus Digital Health - Remote Usability Study & Workflow Analysis -->
+				</a>
+				<a class="box project" id="verto" href="verto.html">
+					<!--Verto - Desktop Application for Emergency Room-->
+				</a>
+				<a class="box project" id="allez" href="allez.html">
+					<!--Allez - One-Arm Wheelchair Drive for People with Hemiplegia-->
+				</a>
+				<a class="box project" id="spotlight" href="spotlight.html">
+					<!--Spotlight Connect - Supporting Students with Severe Allergies-->               
+				</a>
+			</div>
 
-    <div class="container" id="homecontainer">
+			<div class="footer">
+				<p>Created while social distancing in LA. Thank you to all of our frontline workers!</p>
+			</div>
 
-        <div class="intro-text">
-            <h1><b>Hi there! I'm <span class="dark-blue-text">Sheila</span></b>.</h1>
-            <p class="lead">
-            I work at the intersection of<br>
-            <span class="dark-blue-text"><b>human-centered design</b></span> and<br>
-            <span class="dark-blue-text"><b>disruptive technology</b></span> to<br>
-            create elegant solutions to<br>
-            hard problems.</p>
-        </div>
+		</div>
 
-        <div class="intro-button">
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-2">
-                    <a class="btn btn-default" href="aboutme.html" role="button">About Me</a>
-                </div>
-                <div class="col-md-2">
-                    <a class="btn btn-default" href="portfolio.html" role="button">Portfolio</a>
-                </div>
-                <div class="col-md-2">
-                    <a class="btn btn-default" href="contact.html" role="button">Contact</a>
-                </div>
-                <div class="col-md-3"></div>
-            </div>
-        </div>
-
-    </div> <!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-
-</body>
+	</body>
+	
 </html>

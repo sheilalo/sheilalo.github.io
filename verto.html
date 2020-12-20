@@ -1,228 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="Sheila Lo">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+		<meta name="description" content="">
+		<meta name="author" content="Sheila Lo">
 
-    <title>Sheila Lo | Verto</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto">
 
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+		<title>Sheila Lo | Verto</title>
+	</head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+	<body>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<div class="container">
 
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-    <link href="navbar.css" rel="stylesheet">
-    <link href="portfolio.css" rel="stylesheet">
+			<div id="verto-project">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+			<h3 class="project-title">Verto</h3>
 
-    <!-- Ekko Lightbox -->
-    <link href="dist/ekko-lightbox.css" rel="stylesheet">
+			<h5 class="project-section-title">Background</h5>
+				<p>Distinguishing between <strong>vestibular neuritis and stroke</strong> in a timely manner is critical. Through an agile design process, we worked with an early stage startup client, VertigoMetric Diagnostics, to create a <strong>digital interface and training guide</strong> for an emerging emergency room (ER) retinal diagnostic technology.</p>
 
-</head>
-<body>
+			<h5 class="project-section-title">User Research</h5>
+				<p>Currently, when patients arrive in the ER with <strong>dizziness</strong>, it is difficult to differentiate between stroke, a life threatening condition, and vestibular neuritis, a non-life threatening condition.</p>
+				<p>To understand the stakeholders who would be affected by Verto and <strong>implement a solution that fits into the ER workflow</strong>, we recruited and interviewed a variety of healthcare providers including physicians, nurses, medical students, and imaging technicians.</p>
+				<div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_research1.jpg">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_research2.jpg">
+				</div>
+				<p style="padding: 5px; margin: 0"></p>
+				<img style="object-fit: cover; width: 100%;" src="img/verto_researchdownload.png">
+				<p style="padding: 5px; margin: 0"></p>
+				<div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 30px;">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_2x2.png">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_stakeholdermap.png">
+				</div>
+				<p style="padding: 10px; margin: 0"></p>
+				<img style="object-fit: cover; width: 100%;" src="img/verto_journeymap.png">
 
-    <div id="navMenu"></div>
+			<h5 class="project-section-title">Research Findings</h5>
+				<blockquote class="blockquote">
+					<ol>
+						<li class="mb-3">The ER is a complex, intense, and emotional environment.</li>
+						<li class="mb-3">The interface must be intuitive, as the number of patients who present solely with dizziness will likely not warrant a dedicated technician.</li>
+						<li class="mb-0">The interface must provide a quantitative result to assist the healthcare professional in determining the next steps for care.</li>
+					</ol>
+				</blockquote>
 
-    <div class="container">
+	 		<h5 class="project-section-title">Prototyping and Testing</h5>
+				<p>We first created <strong>low fidelity paper prototypes and wireframes</strong> to understand the high level functions required. In our later sprints, we moved toward a <strong>higher fidelity, interactive paper prototype</strong> and then a <strong>digital interface</strong>.</p>
+				<div style="display: grid; grid-template-areas: 'lt rt' 'lb rb'; grid-row-gap: 10px; grid-column-gap: 10px;">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_prototype1.jpg">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_prototype2.jpg">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_prototype3.jpg">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_prototype4.jpg">
+				</div>
+				<p></p>
 
-    <div class="project-text">
+				<p>With each iteration, we <strong>tested with various medical professionals</strong> such as Emergency Room physicians, nurses, and imaging technicians to incorporate the needs of our stakeholders. Our prototypes also evolved as <strong>business needs and technological capabilities</strong> around a physical device were uncovered.</p>
+				<div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_testing1.jpg">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_testing2.jpg">
+				</div>
 
-        <div class="row project-overview">
-            <div class="col-md-5 col-xs-12 text-center" style="padding-right:0px">
-                <div class="imgContainer">
-                    <img src="img/verto_overview.jpg" class="img-responsive" id="project-overview-picture">
-                </div>
-            </div>
-            <div class="col-md-7 col-xs-12 project-overview-side" id="project-overview-text">
-                <h1 class="project-overview-title">Verto <br><small>January 2017 - March 2017 <br> Interaction Design</small></h1>
-                <p class="project-overview-description">Distinguishing between vestibular neuritis and stroke in a timely manner is critical. Through an agile design process, we created a digital interface and training guide for an emerging retinal diagnostic technology for use in the ER. </p>
-            </div>
-        </div>
+			<h5 class="project-section-title">Final Deliverables</h5>
+				<p>At the end of 10 weeks, we presented a video that served as a walkthrough of our digital interface and explained the basic principles of the technology. In our presentation, we emphasized how parts of our interface incorporated features from our insights such as: <strong>familiarity</strong> in the login page, intuitiveness through <strong>automated calculations</strong>, and guidance for <strong>next steps</strong> of patient care.</p>
+				<div class="video-responsive">
+					<iframe src="https://www.youtube-nocookie.com/embed/yNJqe8W03Ro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<p style="padding: 5px; margin: 0"></p>
+				<div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_teamphoto.jpg">
+					<img style="object-fit: cover; width: 100%;" src="img/verto_finalpitch.jpg">
+				</div>
 
-        <h2>The Challenge</h2>
+			</div>
 
-            <p>The nature of the emergency room is fast paced and structured. Verto is an emerging technology still under active development. My team was tasked with understanding the needs of the stakeholders, understanding how Verto fit into the existing ER workflow, and designing an intuitive user interface.</p>
+		</div>
 
-        <h2>User Research</h2>
+		</body>
 
-            <p>The goal of Verto is to create a technology that diagnoses vestibular neuritis in the ER. Currently, when patients arrive in the ER with dizziness, it is difficult to differentiate between stroke, a life threatening condition, and vestibular neuritis, a non-life threatening condition. To <b>understand the stakeholders</b> who would be affected by Verto and implement a solution that fits into the ER workflow, we interviewed Emergency Room professionals. We then created a <b>journey map</b> to understand how a patient who presents with dizziness as the chief complaint moves through ER.</p>
-
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <div class="imgContainer">
-                        <a href="img/hires/verto_stakeholdermap.png" data-toggle="lightbox">
-                            <img src="img/thumb/verto_stakeholdermap.png" class="img-responsive contentImg">
-                        </a>
-                    </div>
-                    <div class="caption">
-                        <p>Stakeholder map</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="padding-top: 10px">
-                <div class="col-md-12">
-                    <div class="imgContainer">
-                        <a href="img/hires/verto_journeymap.png" data-toggle="lightbox">
-                            <img src="img/thumb/verto_journeymap.png" class="img-responsive contentImg">
-                        </a>
-                    </div>
-                    <div class="caption">
-                        <p>Journey map</p>
-                    </div>
-                </div>
-            </div>
-
-        <h2>Insights</h2>
- 
-            <p>From our user research, we learned that <b>the ER is a complex, intense, and emotional environment</b>. For Verto to add value, it must <b>complement or improve the current workflow</b>. Next, the interface must be <b>intuitive</b>, as the number of patients who present solely with dizziness will likely not warrant a dedicated technician. Finally, the interface must provide a quantitative result to <b>assist the physician</b> in determining the next steps for care.</p>
-
-        <h2>Design Sprints</h2>
-
-            <p>At the beginning of each sprint, we reviewed our previous sprint's <b>design arguments</b> to write the next sprint's design arguments. Using the design arguments, we then built prototypes, created a testing plan, and tested progressively higher fidelity interfaces.</p>
-
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <div class="imgContainer">
-                        <a href="img/hires/verto_prototype1.jpg" data-toggle="lightbox">
-                            <img src="img/thumb/verto_prototype1.jpg" class="img-responsive contentImg">
-                        </a>
-                    </div>
-                    <div class="caption">
-                        <p>Sprint 1 prototype</p>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="imgContainer">
-                        <a href="img/hires/verto_prototype2.jpg" data-toggle="lightbox">
-                            <img src="img/thumb/verto_prototype2.jpg" class="img-responsive contentImg">
-                        </a>
-                    </div>
-                    <div class="caption">
-                        <p>Sprint 2 prototype</p>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <div class="imgContainer">
-                        <a href="img/hires/verto_prototype3.jpg" data-toggle="lightbox">
-                            <img src="img/thumb/verto_prototype3.jpg" class="img-responsive contentImg">
-                        </a>
-                    </div>
-                    <div class="caption">
-                        <p>Sprint 3 prototype</p>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="imgContainer">
-                        <a href="img/hires/verto_prototype4.jpg" data-toggle="lightbox">
-                            <img src="img/thumb/verto_prototype4.jpg" class="img-responsive contentImg">
-                        </a>
-                    </div>
-                    <div class="caption">
-                        <p>Sprint 4 prototype</p>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
-            </div>
-
-            <p>We began by creating <b>low fidelity paper prototypes and wireframes</b> to understand the high level functions of the interface. In our later sprints, we moved toward a <b>higher fidelity, digital interface</b>. With each iteration, we tested with various medical professionals such as Emergency Room physicians, nurses, and imaging technicians to incorporate the needs of our stakeholders.</p>
-
-        <h2>Final Pitch</h2>
-
-            <p>We presented a video that served as a walkthrough of our digital interface and explained the basic principles of the technology. In our presentation, we emphasized how parts of our interface incorporated features from our insights such as: familiarity in the login page, intuitiveness through automated calculations, and guidance for next steps of patient care. Additionally, we recommended to the startup team future steps as they continue to refine their technology and prototypes.</p>
-
-            <center>
-                <div class="video-container">
-                    <div class="video-container-smaller">
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4tAFJeVpHMw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </center>
-            <div class="caption">
-                <p>Verto walkthrough</p>
-            </div>
-
-        <div class="page-header"></div>
-        <div class="row">
-            <div class="col-md-3 img-gallery-thumb">
-                <a href="img/hires/verto_1.jpg" data-toggle="lightbox" data-gallery="multiimages">
-                    <img src="img/thumb/verto_1.jpg" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-md-3 img-gallery-thumb">
-                <a href="img/hires/verto_2.jpg" data-toggle="lightbox" data-gallery="multiimages">
-                    <img src="img/thumb/verto_2.jpg" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-md-3 img-gallery-thumb">
-                <a href="img/hires/verto_3.jpg" data-toggle="lightbox" data-gallery="multiimages">
-                    <img src="img/thumb/verto_3.jpg" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-md-3 img-gallery-thumb">
-                <a href="img/hires/verto_4.jpg" data-toggle="lightbox" data-gallery="multiimages">
-                    <img src="img/thumb/verto_4.jpg" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-md-3 img-gallery-thumb">
-                <a href="img/hires/verto_5.jpg" data-toggle="lightbox" data-gallery="multiimages">
-                    <img src="img/thumb/verto_5.jpg" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-md-3 img-gallery-thumb">
-                <a href="img/hires/verto_6.jpg" data-toggle="lightbox" data-gallery="multiimages">
-                    <img src="img/thumb/verto_6.jpg" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-md-3 img-gallery-thumb">
-                <a href="img/hires/verto_7.jpg" data-toggle="lightbox" data-gallery="multiimages">
-                    <img src="img/thumb/verto_7.jpg" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-md-3 img-gallery-thumb">
-                <a href="img/hires/verto_8.jpg" data-toggle="lightbox" data-gallery="multiimages">
-                    <img src="img/thumb/verto_8.jpg" class="img-responsive">
-                </a>
-            </div>
-        </div>
-
-    </div> <!-- /.project-text -->   
-    </div> <!-- /.container -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="navbar.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="project-overview.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="dist/ekko-lightbox.js"></script>
-    <script src="modalHandler.js"></script>
-
-</body>
 </html>
