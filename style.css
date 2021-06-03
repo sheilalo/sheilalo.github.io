@@ -75,20 +75,22 @@ blockquote {
 	font-size: 1.1em;
 }
 
-#verto-project blockquote {
-	border-left: 4px solid #006633;
-}
-
 #allez-project blockquote {
 	border-left: 4px solid #333399;
 }
 
-#spotlight-project blockquote {
-	border-left: 4px solid #4F2582;
-}
-
 blockquote ol {
 	margin: 0;
+}
+
+#floodlight {
+	background-image: url("floodlight-sm.png");
+	width: 280px;              
+}
+
+#navify {
+	background-image: url("navify-sm.png");
+	width: 280px;              
 }
 
 #proteus {
@@ -96,18 +98,8 @@ blockquote ol {
 	width: 280px;              
 }
 
-#verto {
-	background-image: url("verto-sm.png");
-	width: 280px;
-}
-
 #allez {
 	background-image: url("allez-sm.png");
-	width: 280px;
-}
-
-#spotlight {
-	background-image: url("spotlight-sm.png");
 	width: 280px;
 }
 
@@ -154,6 +146,15 @@ ol {
 	padding-left: 1em;
 }
 
+#floodlight-project .project-title {
+	color: #488198;
+	letter-spacing: 1.5px;
+}
+
+#floodlight-project .project-section-title {
+	color: #488198;
+}
+
 #proteus-project .project-title {
 	color: #ff6633;
 	letter-spacing: 1.5px;
@@ -163,6 +164,15 @@ ol {
 	color: #ff6633;
 }
 
+#navify-project .project-title {
+	color: #ee3f4c;
+	letter-spacing: 1.5px;
+}
+
+#navify-project .project-section-title {
+	color: #ee3f4c;
+}
+
 #allez-project .project-title {
 	color: #333399;
 	letter-spacing: 1.5px;
@@ -170,24 +180,6 @@ ol {
 
 #allez-project .project-section-title {
 	color: #333399;
-}
-
-#verto-project .project-title {
-	color: #006633;
-	letter-spacing: 1.5px;
-}
-
-#verto-project .project-section-title {
-	color: #006633;
-}
-
-#spotlight-project .project-title {
-	color: #4F2582;
-	letter-spacing: 1.5px;
-}
-
-#spotlight-project .project-section-title {
-	color: #4F2582;
 }
 
 .project-title {
@@ -204,12 +196,13 @@ ol {
 	padding-top: 1em;
 }
 
-.video-responsive{
+.video-responsive {
 	overflow: hidden;
 	padding-bottom: 56.25%;
 	position: relative;
 	height: 0;
 }
+
 .video-responsive iframe{
 	left: 0;
 	top: 0;
@@ -239,27 +232,27 @@ ol {
 		"bottomLeft bottomRight";
 	}
 
-	#proteus {
+	#floodlight {
 		grid-area: topLeft;
+		background-image: url("floodlight-md.png");
+		width: 263px;              
+	}
+
+	#navify {
+		grid-area: topRight;
+		background-image: url("navify-md.png");
+		width: 263px;              
+	}
+
+	#proteus {
+		grid-area: bottomLeft;
 		background-image: url("proteus-md.png");
 		width: 263px;              
 	}
 
-	#verto {
-		grid-area: topRight;
-		background-image: url("verto-md.png");
-		width: 263px;
-	}
-
 	#allez {
-		grid-area: bottomLeft;
-		background-image: url("allez-md.png");
-		width: 263px;
-	}
-
-	#spotlight {
 		grid-area: bottomRight;
-		background-image: url("spotlight-md.png");
+		background-image: url("allez-md.png");
 		width: 263px;
 	}
 
@@ -303,27 +296,27 @@ ol {
 		font-size: 0.8em;
 	}
 
-	#proteus {
+	#floodlight {
 		grid-area: topLeft;
+		background-image: url("floodlight-lg.png");
+		width: 308px;              
+	}
+
+	#navify {
+		grid-area: topRight;
+		background-image: url("navify-lg.png");
+		width: 308px;              
+	}
+
+	#proteus {
+		grid-area: bottomLeft;
 		background-image: url("proteus-lg.png");
 		width: 308px;              
 	}
 
-	#verto {
-		grid-area: topRight;
-		background-image: url("verto-lg.png");
-		width: 308px;
-	}
-
 	#allez {
-		grid-area: bottomLeft;
+		grid-area: bottomRight;
 		background-image: url("allez-lg.png");
 		width: 308px;
 	}
-
-	#spotlight {
-		grid-area: bottomRight;
-		background-image: url("spotlight-lg.png");
-		width: 308px;
-   }
 }
